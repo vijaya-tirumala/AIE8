@@ -7,7 +7,7 @@ import asyncio
 
 
 class EmbeddingModel:
-    def __init__(self, embeddings_model_name: str = "text-embedding-3-small", batch_size: int = 1024):
+    def __init__(self, embeddings_model_name: str = "text-embedding-3-small", batch_size: int = 10):
         load_dotenv()
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         self.async_client = AsyncOpenAI()
@@ -29,8 +29,16 @@ class EmbeddingModel:
             )
             return [embeddings.embedding for embeddings in embedding_response.data]
         
-        # Use asyncio.gather to process all batches concurrently
-        results = await asyncio.gather(*[process_batch(batch) for batch in batches])
+        # Process batches sequentially with delays to avoid rate limits
+        results = []
+        for i, batch in enumerate(batches):
+            print(f"Processing batch {i+1}/{len(batches)} ({len(batch)} texts)")
+            batch_result = await process_batch(batch)
+            results.append(batch_result)
+            
+            # Add delay between batches to avoid rate limits
+            if i < len(batches) - 1:  # Don't delay after the last batch
+                await asyncio.sleep(1)  # 1 second delay between batches
         
         # Flatten the results
         return [embedding for batch_result in results for embedding in batch_result]
