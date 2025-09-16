@@ -37,15 +37,15 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
+    - Aspect Tested: Started with an affirmative response. The use of a real-world car analogy helps simplify complex ideas, making them easier to relate to and understand. The content is well-formatted, avoiding information overload while maintaining a consistent, simple tone that’s approachable—especially for new users. The summary at the end effectively reinforces key points without being repetitive or overwhelming. Overall, the solution strikes a balance between clarity, usefulness, and accessibility.
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: Summarized well when paragraph is given in the same context window. When tried a separate the summary is not very helpful. Incosistent response between the questions though the input is same
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: Demonstrated attention to detail by matching the specified word counts for each story (129, 147, and 130 words). It incorporates creative storytelling with clear progression—from a kitten to a fox, then a dog—while maintaining a consistent theme of friendship and positive resolution. The narrative structure is well-balanced, and the happy endings in each story contribute to an overall warm and engaging tone
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: The system prompt effectively solves the problem with a clear and descriptive response. It demonstrates the ability to perform basic arithmetic and follows up with a concise explanation, making the answer both accurate and easy to understand
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: The paragraph is well-written with vivid and emotive storytelling, showcasing strong creative writing skills. However, the tone is more literary and imaginative than formal or professional. It’s best suited for creative contexts rather than technical or corporate communication.
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -59,6 +59,12 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 
 What are some limitations of vibe checking as an evaluation tool?
 ##### ✅ Answer:
+
+Vibe checking allows for customized test cases tailored to specific users and use cases, providing immediate feedback on how an LLM system performs in real-world scenarios. It's fast, intuitive, and cost-effective for identifying major issues that would be immediately noticeable to end users.
+
+The lack of standardized checks based on systematic sampling makes it difficult to cover all user scenarios and scale measurement of success across different contexts. The method can introduce inconsistency and bias, as demonstrated when testing creative story generation - the system made different choices (robot befriending a kitten 127 vs. a fox vs a dog) across attempts, showing unpredictable behavior. Additionally, vibe checking often misses important context and edge cases, requiring evaluators to start over with renewed focus when issues are discovered.
+
+It appeared to me that Vibe checking works best as an initial screening tool to catch major issues quickly, but should be combined with more systematic evaluation methods that include standardized test cases and comprehensive scenario coverage for production systems.
 
 ### 🚧 Advanced Build (OPTIONAL):
 
