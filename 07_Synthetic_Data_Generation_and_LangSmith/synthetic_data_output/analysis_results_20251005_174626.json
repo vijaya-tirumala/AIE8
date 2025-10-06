@@ -1,0 +1,28 @@
+{
+  "evolution_distribution": {
+    "simple": 10,
+    "multi_context": 10,
+    "reasoning": 10
+  },
+  "quality_metrics": {
+    "question_length": {
+      "mean": 333.46666666666664,
+      "std": 143.86769145182723
+    },
+    "answer_length": {
+      "mean": 2121.866666666667,
+      "std": 1051.1407836852477
+    },
+    "context_length": {
+      "mean": 2762.0666666666666,
+      "std": 230.97319344883732
+    }
+  },
+  "completeness": {
+    "total_questions": 30,
+    "total_answers": 30,
+    "total_contexts": 30,
+    "answer_coverage": 100.0,
+    "context_coverage": 100.0
+  }
+}

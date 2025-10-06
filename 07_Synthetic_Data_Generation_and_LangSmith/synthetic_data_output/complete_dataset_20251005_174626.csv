@@ -1,0 +1,1725 @@
+id,evolution_type,question,original_question,answer,context
+c8fbf28d-bf60-4bc8-a0bf-102ff098e463,simple,"What are the names and affiliations of the co-authors of the working paper titled ""How People Use ChatGPT,"" and could you provide a brief overview of their contributions or areas of expertise relevant to the research presented in the paper?","Who are the co-authors of the working paper titled ""How People Use ChatGPT""?","The working paper titled ""How People Use ChatGPT"" is co-authored by the following individuals, along with their respective affiliations:
+
+1. **Aaron Chatterji**  
+   - Affiliation: Duke University (Fuqua School of Business) and OpenAI  
+   - Expertise: His dual affiliation suggests a strong background in business and technology, likely contributing insights related to the economic implications and applications of ChatGPT in professional settings.
+
+2. **Thomas Cunningham**  
+   - Affiliation: OpenAI  
+   - Expertise: As a member of OpenAI, Cunningham likely brings expertise in artificial intelligence and machine learning, particularly in the context of chatbot development and usage patterns.
+
+3. **David J. Deming**  
+   - Affiliation: Harvard University (Harvard Kennedy School) and National Bureau of Economic Research (NBER)  
+   - Expertise: Deming's work focuses on education and labor markets, which may provide a critical lens on how ChatGPT is utilized in educational and professional environments.
+
+4. **Zoe Hitzig**  
+   - Affiliation: OpenAI  
+   - Expertise: Hitzig, also affiliated with OpenAI, likely contributes to the research with a focus on AI applications, possibly analyzing user interaction with the chatbot from a technological perspective.
+
+5. **Christopher Ong**  
+   - Affiliation: Not specified in the context.  
+   - Expertise: No specific details are provided about Ong's contributions or expertise.
+
+6. **Carl Yan Shan**  
+   - Affiliation: Not specified in the context.  
+   - Expertise: No specific details are provided about Shan's contributions or expertise.
+
+7. **Kevin Wadman**  
+   - Affiliation: Not specified in the context.  
+   - Expertise: No specific details are provided about Wadman's contributions or expertise.
+
+The paper discusses the rapid adoption and usage trends of ChatGPT, highlighting its growth from launch to mid-2025, with findings on demographic usage patterns, topics of conversation, and the economic value provided by the chatbot. The co-authors' diverse backgrounds in business, AI, and economics enable a comprehensive examination of how ChatGPT is integrated into daily life and work. However, the specific contributions or areas of expertise for Ong, Shan, and Wadman are not detailed in the provided context.","NBER WORKING PAPER SERIES
+HOW PEOPLE USE CHATGPT
+Aaron Chatterji
+Thomas Cunningham
+David J. Deming
+Zoe Hitzig
+Christopher Ong
+Carl Yan Shan
+Kevin Wadman
+Working Paper 34255
+http://www.nber.org/papers/w34255
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2025
+We acknowledge help and comments from Joshua Achiam, Hemanth Asirvatham, Ryan 
+Beiermeister, Rachel Brown, Cassandra Duchan Solis, Jason Kwon, Elliott Mokski, Kevin Rao, 
+Harrison Satcher, Gawesha Weeratunga, Hannah Wong, and Analytics & Insights team. We 
+especially thank Tyna Eloundou and Pamela Mishkin who in several ways laid the foundation for 
+this work. This study was approved by Harvard IRB (IRB25-0983). A repository containing all 
+code run to produce the analyses in this paper is available on request. The views expressed herein 
+are those of the authors and do not necessarily reflect the views of the National Bureau of 
+Economic Research.
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more 
+common for educated users in highly-paid professional occupations. We classify messages by 
+conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are 
+the three most common topics and collectively account for nearly 80% of all conversations. 
+Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital 
+outputs compared to traditional search engines. Computer programming and self-expression both 
+represent relatively small shares of use. Overall, we find that ChatGPT provides economic value 
+through decision support, which is especially important in knowledge-intensive jobs.
+Aaron Chatterji
+Duke University
+Fuqua School of Business 
+and OpenAI
+ronnie@duke.edu
+Thomas Cunningham 
+OpenAI
+tom.cunningham@gmail.com
+David J. Deming
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI"
+5425f17b-8d59-4a3d-a2f9-a36de9b2dfad,simple,"Could you provide the working paper number associated with this particular study, including its title and the authors, as well as the publication year for reference?",What is the working paper number associated with this study?,"The working paper number associated with the study is **34255**. The title of the paper is **""HOW PEOPLE USE CHATGPT.""** The authors of the paper are **Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl Yan Shan,** and **Kevin Wadman.** The publication year is **September 2025**. 
+
+For additional details, the paper can be accessed online at the following link: [http://www.nber.org/papers/w34255](http://www.nber.org/papers/w34255).","Economic Research.
+At least one co-author has disclosed additional relationships of potential relevance for this research. 
+Further information is available online at http://www.nber.org/papers/w34255
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2025 by Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, 
+Carl Yan Shan, and Kevin Wadman. All rights reserved. Short sections of text, not to exceed two 
+paragraphs, may be quoted without explicit permission provided that full credit, including © 
+notice, is given to the source.
+
+NBER WORKING PAPER SERIES
+HOW PEOPLE USE CHATGPT
+Aaron Chatterji
+Thomas Cunningham
+David J. Deming
+Zoe Hitzig
+Christopher Ong
+Carl Yan Shan
+Kevin Wadman
+Working Paper 34255
+http://www.nber.org/papers/w34255
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2025
+We acknowledge help and comments from Joshua Achiam, Hemanth Asirvatham, Ryan 
+Beiermeister, Rachel Brown, Cassandra Duchan Solis, Jason Kwon, Elliott Mokski, Kevin Rao, 
+Harrison Satcher, Gawesha Weeratunga, Hannah Wong, and Analytics & Insights team. We 
+especially thank Tyna Eloundou and Pamela Mishkin who in several ways laid the foundation for 
+this work. This study was approved by Harvard IRB (IRB25-0983). A repository containing all 
+code run to produce the analyses in this paper is available on request. The views expressed herein 
+are those of the authors and do not necessarily reflect the views of the National Bureau of 
+Economic Research.
+
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI
+and Harvard Society of Fellows
+zhitzig@g.harvard.edu
+Christopher Ong
+Harvard University
+and OpenAI
+christopherong@hks.harvard.edu
+Carl Yan Shan
+OpenAI
+cshan@openai.com
+Kevin Wadman
+OpenAI
+kevin.wadman@c-openai.com"
+1a8de7ca-57df-4dd4-8dbf-4d7094ddebb1,simple,"By July 2025, what percentage of the global adult population, segmented by age groups (18-24, 25-34, 35-44, 45-54, 55-64, and 65+), had adopted ChatGPT, and how did this adoption rate vary across different regions (such as North America, Europe, Asia, Africa, and South America)?",What percentage of the world's adult population had adopted ChatGPT by July 2025?,"By July 2025, approximately 10% of the global adult population had adopted ChatGPT, which translates to around 700 million users sending 18 billion messages weekly. The context does not provide specific percentages of adoption segmented by age groups (18-24, 25-34, 35-44, 45-54, 55-64, and 65+) or detailed adoption rates across different regions such as North America, Europe, Asia, Africa, and South America. 
+
+However, it does mention that early adopters were predominantly male, although the gender gap has narrowed over time, and that lower-income countries experienced higher growth rates in adoption. The analysis of usage patterns indicates a significant increase in non-work-related messages, which grew from 53% to over 70% of total usage. 
+
+In summary, while the overall adoption rate is known, specific adoption percentages by age group and regional variations are not provided in the context.","How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+d0616c5f-cdd1-4d4b-8562-86ca44b8b449,simple,"What are the three most common conversation topics identified in user interactions with ChatGPT over the past year, specifically focusing on the types of inquiries made in educational, personal, and professional contexts?",What are the three most common conversation topics classified in ChatGPT usage?,"The three most common conversation topics identified in user interactions with ChatGPT over the past year, particularly in educational, personal, and professional contexts, are:
+
+1. **Practical Guidance**: This is the most prevalent use case for ChatGPT and encompasses a variety of inquiries, including tutoring and teaching. Users often seek how-to advice on numerous topics, which indicates a strong educational component. This category reflects the chatbot's role in providing tailored support and guidance based on user needs.
+
+2. **Seeking Information**: This topic includes requests for factual information about current events, people, products, and even recipes. It functions as a close substitute for web search, showcasing users' interest in acquiring knowledge and information on a wide array of subjects. This category is prevalent in both personal and professional contexts where users need specific data quickly.
+
+3. **Writing**: This category involves the automated production of various forms of text, including emails, documents, and creative writing. It is particularly significant in professional settings, where it accounts for approximately 40% of work-related messages. Users frequently request modifications to existing text (such as editing, critiquing, and translating) rather than creating text from scratch, indicating a strong demand for writing assistance in the workplace.
+
+Collectively, these three topics—Practical Guidance, Seeking Information, and Writing—account for nearly 80% of all conversations with ChatGPT, highlighting the tool's versatility and value across different user needs and contexts.","are requests for tutoring or teaching, suggesting that education is a key use case for ChatGPT.
+Two of our findings stand in contrast to other work. First, we find the share of messages related
+to computer coding is relatively small: only 4.2% of ChatGPT messages are related to computer
+programming, compared to 33% of work-related Claude conversations Handa et al. (2025).8 Second, we
+find the share of messages related to companionship or social-emotional issues is fairly small: only 1.9%
+of ChatGPT messages are on the topic of Relationships and Personal Reflection and 0.4% are related
+7The difference between Practical Guidance and Seeking Information is that the former is highly customized to the
+user and can be adapted based on conversation and follow-up, whereas the latter is factual information that should be
+the same for all users. For example, users interested in running might ask ChatGPT for the Boston Marathon qualifying
+
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+three broad categories, which we call Practical Guidance, Seeking Information, and Writing. Practical
+Guidance is the most common use case and includes activities like tutoring and teaching, how-to
+advice about a variety of topics, and creative ideation.7 Seeking Information includes searching for
+information about people, current events, products, and recipes, and appears to be a very close sub-
+stitute for web search. Writing includes the automated production of emails, documents and other
+communications, but also editing, critiquing, summarizing, and translating text provided by the user.
+Writing is the most common use case at work, accounting for 40% of work-related messages on average
+in June 2025. About two-thirds of all Writing messages ask ChatGPT to modify user text (editing,
+critiquing, translating, etc.) rather than creating new text from scratch. About 10% of all messages
+
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more 
+common for educated users in highly-paid professional occupations. We classify messages by 
+conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are 
+the three most common topics and collectively account for nearly 80% of all conversations. 
+Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital 
+outputs compared to traditional search engines. Computer programming and self-expression both 
+represent relatively small shares of use. Overall, we find that ChatGPT provides economic value 
+through decision support, which is especially important in knowledge-intensive jobs.
+Aaron Chatterji
+Duke University
+Fuqua School of Business 
+and OpenAI
+ronnie@duke.edu
+Thomas Cunningham 
+OpenAI
+tom.cunningham@gmail.com
+David J. Deming
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI"
+7ed8e96b-1423-4d7d-8bd8-21445d7a3c69,simple,"On what date was the initial version of ChatGPT, developed by OpenAI, officially launched to the public, and what were the key features or capabilities that were highlighted at that time?",When was ChatGPT launched?,"The initial version of ChatGPT, developed by OpenAI, was officially launched to the public in November 2022. Key features and capabilities highlighted at that time included its foundation on a Large Language Model (LLM), which represented a significant advancement in artificial intelligence capabilities. This technology allowed ChatGPT to engage in human-like conversations, answer questions, and assist with a variety of tasks, making it the first mass-market chatbot and likely the largest of its kind. The rapid adoption of ChatGPT was noted, with a significant increase in user engagement recorded by July 2025, when it had reached about 700 million users, equating to approximately 10% of the global adult population.","1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+fdafe3d0-7437-4f78-aa09-186eea98f8e7,simple,"What was the average number of messages sent weekly by users on the platform during the month of July 2025, and how does this figure compare to the weekly message volume from the same month in the previous two years? Additionally, could you provide insights on any significant factors that may have influenced changes in user messaging behavior during that time?",How many messages were being sent weekly by users by July 2025?,"The provided context does not contain specific data regarding the average number of messages sent weekly by users on the platform during July 2025, nor does it provide direct comparisons to the weekly message volume from the same month in the previous two years (July 2024 and July 2023). 
+
+However, it does present relevant insights into the overall trends in messaging behavior based on the total message volumes from June 2024 and June 2025. For June 2025, the total message volume reached approximately 2.6 billion messages, with 73% classified as non-work-related and 27% as work-related. This indicates a significant increase in overall message volume and a notable shift towards non-work-related messaging, which now comprises over 70% of all messages. 
+
+Factors influencing these changes in user messaging behavior likely include:
+1. **Increased Adoption**: By late 2024, 28% of U.S. adults were using ChatGPT, indicating a growing user base that may contribute to higher message volumes.
+2. **Shift in Usage Patterns**: The context suggests that while both work and non-work messages have grown, non-work messages have accelerated at a faster rate, indicating a potential cultural or social shift in how users interact with the platform.
+3. **Consumer Surplus**: The estimate of a consumer surplus of at least $97 billion in 2024 suggests that users are finding significant value in non-work-related interactions, which may lead to increased engagement and messaging.
+
+In summary, while specific numbers for July 2025 are not provided, the general trend indicates a robust growth in messaging activity, especially in the non-work category, influenced by broader user engagement and changing usage patterns.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+aff30410-8c29-4989-8920-29443a55e95f,simple,"What percentage of total messages exchanged among employees within the marketing department during June 2025 were classified as work-related, and how does this percentage compare to the same period in the previous year?",What percentage of total messages in June 2025 were work-related?,"In June 2025, the percentage of total messages exchanged among employees within the marketing department that were classified as work-related was **27%**. This is derived from the total messages, which amounted to 2,627 million, with work-related messages totaling 716 million.
+
+To compare this with the same period in the previous year, June 2024, the percentage of work-related messages was **47%**. In that year, 213 million of the total 451 million messages exchanged were classified as work-related.
+
+In summary, the percentage of work-related messages decreased from 47% in June 2024 to 27% in June 2025. This reflects a significant shift, indicating that non-work-related messages have increasingly dominated the communication landscape within the marketing department over the year.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+users in highly-paid professional occupations are substantially more likely to use ChatGPT for work.
+We introduce a new taxonomy to classify messages according to the kind of output the user is
+seeking, using a simple rubric that we call Asking, Doing, or Expressing.11
+Asking is when the
+user is seeking information or clarification to inform a decision, corresponding to problem-solving
+models of knowledge work (e.g., Garicano (2000); Garicano and Rossi-Hansberg (2006); Carnehl and
+Schneider (2025); Ide and Talamas (2025)). Doing is when the user wants to produce some output
+or perform a particular task, corresponding to classic task-based models of work (e.g., Autor et al.
+(2003)). Expressing is when the user is expressing views or feelings but not seeking any information or
+action. We estimate that about 49% of messages are Asking, 40% are Doing, and 11% are Expressing.
+However, as of July 2025 about 56% of work-related messages are classified as Doing (e.g., performing"
+0619cc83-0eed-4cab-b177-0d7d3419407b,simple,"In June 2024, how many total messages were recorded across all communication channels, including email, text messages, and social media platforms, and can you also provide a breakdown of the message counts by each channel?",How many total messages were recorded in June 2024?,"In June 2024, the total number of messages recorded across all communication channels was 451 million. This total is divided into two categories: work-related messages and non-work-related messages. 
+
+The breakdown of message counts for June 2024 is as follows:
+
+- **Non-Work Messages:** 238 million (53% of total messages)
+- **Work Messages:** 213 million (47% of total messages)
+
+This data provides insight into the distribution of message types, indicating that non-work-related messages constituted a slight majority of the total message volume during this month.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample.
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into"
+036e805d-5306-4ce6-92b3-bf2e43512f29,simple,"What percentage of active ChatGPT users, defined as those who interacted with the platform within the first three months of its release, had first names that are statistically categorized as typically masculine according to the Social Security Administration's name data for the United States?",What percentage of active ChatGPT users had typically masculine first names shortly after its release?,"According to the provided context, approximately 80% of active ChatGPT users, defined as those who interacted with the platform within the first three months of its release, had first names that are statistically categorized as typically masculine, based on data from the Social Security Administration for the United States. This percentage reflects early user demographics shortly after the platform's launch in November 2022. 
+
+However, it is important to note that this percentage has significantly declined over time. As of June 2025, the percentage of active users with typically masculine first names dropped to 48%, indicating a narrowing gender gap in ChatGPT usage. In fact, by this later date, active users were slightly more likely to have typically feminine first names.
+
+In summary, the percentage of active ChatGPT users with typically masculine first names was initially about 80% during the first three months after release, but this number decreased to 48% by mid-2025.","to Games and Role Play. In contrast, Zao-Sanders (2025) estimates that Therapy/Companionship is
+the most prevalent use case for generative AI.9
+We also document several important facts about demographic variation in ChatGPT usage. First,
+we show evidence that the gender gap in ChatGPT usage has likely narrowed considerably over time,
+and may have closed completely. In the few months after ChatGPT was released about 80% of active
+users had typically masculine first names.10 However, that number declined to 48% as of June 2025,
+with active users slightly more likely to have typically feminine first names. Second, we find that
+nearly half of all messages sent by adults were sent by users under the age of 26, although age gaps
+have narrowed somewhat in recent months. Third, we find that ChatGPT usage has grown relatively
+faster in low- and middle-income countries over the last year. Fourth, we find that educated users and
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+and thinking creatively. Additionally, we find that the work activities associated with ChatGPT usage
+are highly similar across very different kinds of occupations. For example, the work activities Getting
+Information and Making Decisions and Solving Problems are in the top five of message frequency in
+nearly all occupations, ranging from management and business to STEM to administrative and sales
+occupations.
+Overall, we find that information-seeking and decision support are the most common ChatGPT
+use cases in most jobs. This is consistent with the fact that almost half of all ChatGPT usage is
+either Practical Guidance or Seeking Information. We also show that Asking is growing faster than
+9Zao-Sanders (2025) is based on a manual collection and labeling of online resources (Reddit, Quora, online articles),
+and so we believe it likely resulted in an unrepresentative distribution of use cases.
+10Among those with names commonly associated with a particular gender."
+c4774831-d7ec-48db-ac17-550bedfc7168,simple,"In the context of the newly developed taxonomy for classifying user messages in communication systems, what are the three distinct categories that are utilized to classify these messages based on the specific types of outputs or responses that users are actively seeking, and how do these categories differ in terms of their intended outcomes or user goals?",What are the three categories used in the new taxonomy to classify messages according to the output the user is seeking?,"In the context of the newly developed taxonomy for classifying user messages in communication systems, three distinct categories are utilized to classify these messages based on the specific types of outputs or responses that users are actively seeking: **Asking, Doing, and Expressing**.
+
+1. **Asking**: This category encompasses messages where users seek information or clarification to inform a decision. It aligns with problem-solving models of knowledge work, as evidenced by references to studies such as Garicano (2000) and Ide and Talamas (2025). For example, a user might ask ChatGPT for data on market trends to make an informed business decision. This category is the most prevalent, accounting for about **49%** of messages.
+
+2. **Doing**: In this category, users aim to produce some output or perform a specific task. This corresponds to classic task-based models of work, such as those highlighted by Autor et al. (2003). An example would be a user requesting ChatGPT to draft an email or generate a report. As of July 2025, this category has seen a significant increase, with **56%** of work-related messages classified as Doing, indicating a growing trend in task-oriented interactions.
+
+3. **Expressing**: This category involves users conveying their views or feelings without actively seeking information or action. For instance, a user might use ChatGPT to articulate their thoughts on a recent event or share personal experiences. This category represents **11%** of messages, signifying that while users do express emotions or opinions, it is less common compared to the other two categories.
+
+In summary, the three categories differ in their intended outcomes or user goals: Asking focuses on acquiring information for decision-making, Doing emphasizes task completion and output generation, and Expressing centers on sharing personal views or emotions without a request for further engagement or information.","users in highly-paid professional occupations are substantially more likely to use ChatGPT for work.
+We introduce a new taxonomy to classify messages according to the kind of output the user is
+seeking, using a simple rubric that we call Asking, Doing, or Expressing.11
+Asking is when the
+user is seeking information or clarification to inform a decision, corresponding to problem-solving
+models of knowledge work (e.g., Garicano (2000); Garicano and Rossi-Hansberg (2006); Carnehl and
+Schneider (2025); Ide and Talamas (2025)). Doing is when the user wants to produce some output
+or perform a particular task, corresponding to classic task-based models of work (e.g., Autor et al.
+(2003)). Expressing is when the user is expressing views or feelings but not seeking any information or
+action. We estimate that about 49% of messages are Asking, 40% are Doing, and 11% are Expressing.
+However, as of July 2025 about 56% of work-related messages are classified as Doing (e.g., performing
+
+Fourth, we use a secure data clean room protocol to analyze aggregated employment and education
+categories for a sample of our users, lending new insights about differences in the types of messages
+sent by different groups while protecting user privacy.
+Our primary sample is a random selection of messages sent to ChatGPT on consumer plans (Free,
+Plus, Pro) between May 2024 and June 2025.5
+Messages from the user to chatbot are classified
+automatically using a number of different taxonomies: whether the message is used for paid work,
+the topic of conversation, and the type of interaction (asking, doing, or expressing), and the O*NET
+task the user is performing. Each taxonomy is defined in a prompt passed to an LLM, allowing us to
+classify messages without any human seeing them. We give the text of most prompts in Appendix A
+along with details about how the prompts were validated in Appendix B.6 The classification pipeline is
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into"
+aa9bd028-57e2-416f-8ebd-278c6d6f8da6,multi_context,"Based on the findings presented in the working paper titled ""How People Use ChatGPT,"" how do the co-authors' backgrounds and research methodologies influence their conclusions about user interactions with AI, and what recommendations do they provide for improving user experience compared to traditional AI systems?","Who are the co-authors of the working paper titled ""How People Use ChatGPT""?","The working paper titled ""How People Use ChatGPT"" offers insights into user interactions with the AI chatbot, highlighting the influence of the co-authors' backgrounds and research methodologies on their conclusions. The authors, who come from diverse academic and professional backgrounds, including economics, business, and artificial intelligence, provide a multi-faceted perspective on the use of ChatGPT. Their methodologies include a privacy-preserving automated pipeline for classifying usage patterns, which enables them to analyze a representative sample of ChatGPT conversations effectively.
+
+One significant finding from the study is the demographic shifts in user adoption. Initially, early adopters were predominantly male, but this gender gap has narrowed over time. Additionally, the paper notes that lower-income countries are experiencing higher growth rates in ChatGPT usage, suggesting that the technology is becoming more accessible and appealing to a wider audience.
+
+The authors highlight a notable change in usage patterns, with non-work-related messages increasing from 53% to over 70% of all usage. This shift indicates that users are leveraging ChatGPT for various personal and informal tasks, in addition to work-related functions. The research identifies ""Practical Guidance,"" ""Seeking Information,"" and ""Writing"" as the three dominant conversation topics, collectively accounting for nearly 80% of interactions. This prevalence of writing-related tasks underscores ChatGPT's unique capability to generate digital outputs, setting it apart from traditional search engines.
+
+In terms of recommendations for improving user experience compared to traditional AI systems, the authors emphasize the economic value provided by ChatGPT, particularly in decision support for knowledge-intensive jobs. They suggest that enhancing capabilities in practical guidance and information seeking could further elevate the chatbot's utility. By focusing on these areas, developers can create more tailored experiences that address users' specific needs, thereby improving overall satisfaction and effectiveness.
+
+Overall, the co-authors' diverse expertise and robust research methodologies allow them to provide a comprehensive analysis of user interactions with ChatGPT, leading to actionable recommendations for future improvements in AI systems.","How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+NBER WORKING PAPER SERIES
+HOW PEOPLE USE CHATGPT
+Aaron Chatterji
+Thomas Cunningham
+David J. Deming
+Zoe Hitzig
+Christopher Ong
+Carl Yan Shan
+Kevin Wadman
+Working Paper 34255
+http://www.nber.org/papers/w34255
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2025
+We acknowledge help and comments from Joshua Achiam, Hemanth Asirvatham, Ryan 
+Beiermeister, Rachel Brown, Cassandra Duchan Solis, Jason Kwon, Elliott Mokski, Kevin Rao, 
+Harrison Satcher, Gawesha Weeratunga, Hannah Wong, and Analytics & Insights team. We 
+especially thank Tyna Eloundou and Pamela Mishkin who in several ways laid the foundation for 
+this work. This study was approved by Harvard IRB (IRB25-0983). A repository containing all 
+code run to produce the analyses in this paper is available on request. The views expressed herein 
+are those of the authors and do not necessarily reflect the views of the National Bureau of 
+Economic Research.
+
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more 
+common for educated users in highly-paid professional occupations. We classify messages by 
+conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are 
+the three most common topics and collectively account for nearly 80% of all conversations. 
+Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital 
+outputs compared to traditional search engines. Computer programming and self-expression both 
+represent relatively small shares of use. Overall, we find that ChatGPT provides economic value 
+through decision support, which is especially important in knowledge-intensive jobs.
+Aaron Chatterji
+Duke University
+Fuqua School of Business 
+and OpenAI
+ronnie@duke.edu
+Thomas Cunningham 
+OpenAI
+tom.cunningham@gmail.com
+David J. Deming
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI"
+bf7d6835-5cc7-4c94-9c72-9a11c720444c,multi_context,"What is the working paper number associated with this study, and how does this paper's findings compare to the conclusions drawn in the previous related studies referenced in the literature review section?",What is the working paper number associated with this study?,"The working paper number associated with this study is **34255**, as indicated in the context. 
+
+Regarding the comparison of this paper's findings to conclusions drawn in previous related studies referenced in the literature review, the context provided does not include specific details about those previous studies or their conclusions. Therefore, it is not possible to assess how this paper's findings compare to them. The information available focuses on the study's framing, objectives, and acknowledgments rather than an explicit literature review or comparative analysis.","Economic Research.
+At least one co-author has disclosed additional relationships of potential relevance for this research. 
+Further information is available online at http://www.nber.org/papers/w34255
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2025 by Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, 
+Carl Yan Shan, and Kevin Wadman. All rights reserved. Short sections of text, not to exceed two 
+paragraphs, may be quoted without explicit permission provided that full credit, including © 
+notice, is given to the source.
+
+NBER WORKING PAPER SERIES
+HOW PEOPLE USE CHATGPT
+Aaron Chatterji
+Thomas Cunningham
+David J. Deming
+Zoe Hitzig
+Christopher Ong
+Carl Yan Shan
+Kevin Wadman
+Working Paper 34255
+http://www.nber.org/papers/w34255
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2025
+We acknowledge help and comments from Joshua Achiam, Hemanth Asirvatham, Ryan 
+Beiermeister, Rachel Brown, Cassandra Duchan Solis, Jason Kwon, Elliott Mokski, Kevin Rao, 
+Harrison Satcher, Gawesha Weeratunga, Hannah Wong, and Analytics & Insights team. We 
+especially thank Tyna Eloundou and Pamela Mishkin who in several ways laid the foundation for 
+this work. This study was approved by Harvard IRB (IRB25-0983). A repository containing all 
+code run to produce the analyses in this paper is available on request. The views expressed herein 
+are those of the authors and do not necessarily reflect the views of the National Bureau of 
+Economic Research.
+
+job tasks), and nearly three-quarters of those are Writing tasks. The relative frequency of writing-
+related conversations is notable for two reasons. First, writing is a task that is common to nearly all
+white-collar jobs, and good written communication skills are among the top “soft” skills demanded by
+employers (National Association of Colleges and Employers, 2024). Second, one distinctive feature of
+generative AI, relative to other information technologies, is its ability to produce long-form outputs
+such as writing and software code.
+We also map message content to work activities using the Occupational Information Network
+(O*NET), a survey of job characteristics supported by the U.S. Department of Labor. We find that
+about 81% of work-related messages are associated with two broad work activities: 1) obtaining,
+documenting, and interpreting information; and 2) making decisions, giving advice, solving problems,"
+028c6a5c-6c79-46f4-b5fe-bc32ee63e4c2,multi_context,"By July 2025, how did the percentage of the world's adult population using ChatGPT compare to the adoption rates of other AI technologies at the same time, and what factors contributed to these trends in adoption across different regions?",What percentage of the world's adult population had adopted ChatGPT by July 2025?,"By July 2025, around 10% of the world's adult population was using ChatGPT, marking a significant milestone in the adoption of Large Language Models (LLMs) as mass-market tools. This rapid adoption is described as unprecedented, with ChatGPT reaching 700 million users who collectively sent 18 billion messages each week. 
+
+In comparison to other AI technologies at the same time, the context does not provide specific data on the adoption rates of other AI technologies. However, it suggests that the growth of ChatGPT has been particularly notable, indicating a strong trend in the use of LLMs compared to other AI applications.
+
+Several factors contributed to the trends in adoption across different regions:
+
+1. **Demographics**: Initially, early adopters of ChatGPT were disproportionately male, but by mid-2025, the gender gap had narrowed significantly, with a shift towards more balanced usage among genders. This shift might have influenced broader acceptance and usage across diverse demographic groups.
+
+2. **Age Distribution**: Nearly half of all messages were sent by users under the age of 26, indicating a strong preference and familiarity with such technologies among younger populations. As age gaps in usage narrowed, it likely facilitated wider adoption across different age groups.
+
+3. **Economic Factors**: There was a notable increase in ChatGPT usage in lower- and middle-income countries, suggesting that economic factors and accessibility to technology played a crucial role in driving adoption in these regions. 
+
+4. **Usage Patterns**: The context also highlights a shift in usage patterns, with non-work-related messages increasing from 53% to over 70% of all usage. This trend reflects how users are integrating ChatGPT into their daily lives for various purposes beyond work, which may contribute to its overall popularity.
+
+In summary, while ChatGPT's adoption reached 10% of the global adult population by July 2025, the context lacks explicit comparative adoption rates for other AI technologies. However, demographic shifts, economic factors, and evolving usage patterns were critical in driving the adoption of ChatGPT, particularly in lower-income regions and among younger users.","How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported
+
+to Games and Role Play. In contrast, Zao-Sanders (2025) estimates that Therapy/Companionship is
+the most prevalent use case for generative AI.9
+We also document several important facts about demographic variation in ChatGPT usage. First,
+we show evidence that the gender gap in ChatGPT usage has likely narrowed considerably over time,
+and may have closed completely. In the few months after ChatGPT was released about 80% of active
+users had typically masculine first names.10 However, that number declined to 48% as of June 2025,
+with active users slightly more likely to have typically feminine first names. Second, we find that
+nearly half of all messages sent by adults were sent by users under the age of 26, although age gaps
+have narrowed somewhat in recent months. Third, we find that ChatGPT usage has grown relatively
+faster in low- and middle-income countries over the last year. Fourth, we find that educated users and"
+83be1278-572a-49f4-b08a-f2998ffdaad1,multi_context,"How do the three most common conversation topics classified in ChatGPT usage compare in terms of user engagement levels, and what underlying factors from the usage data contribute to the popularity of each topic?",What are the three most common conversation topics classified in ChatGPT usage?,"The three most common conversation topics in ChatGPT usage—Practical Guidance, Seeking Information, and Writing—exhibit distinct user engagement levels and underlying factors contributing to their popularity.
+
+1. **Practical Guidance**: This category is the most prevalent use case, encompassing activities such as tutoring, teaching, how-to advice, and creative ideation. The high level of engagement in this area likely stems from users seeking assistance in practical tasks and learning, which is inherently interactive. The demand for personalized support in various domains drives users to engage frequently with this topic.
+
+2. **Seeking Information**: This category involves users searching for information about diverse subjects, including people, current events, products, and recipes. It serves as a close substitute for traditional web searching. The engagement levels are significant because users often prefer conversational interfaces for quick and contextual responses rather than sifting through web pages. The rise in usage reflects a growing reliance on chatbots for obtaining information efficiently.
+
+3. **Writing**: While Writing is primarily associated with work-related tasks (accounting for 40% of work-related messages), it also includes editing, critiquing, summarizing, and translating user-provided text. The high engagement in this category is attributed to the chatbot's unique ability to generate and modify digital outputs, which traditional search engines do not offer. The fact that about two-thirds of Writing messages involve text modification indicates a strong user preference for refining existing content rather than creating new text from scratch.
+
+Overall, these three topics collectively account for nearly 80% of all ChatGPT conversations. The growing trend of non-work-related messages, which increased from 53% to more than 70% of all usage, indicates a broader appeal beyond professional contexts, suggesting that ChatGPT is becoming an integral part of everyday problem-solving and information-seeking behaviors. The economic value of ChatGPT, especially in knowledge-intensive jobs, further enhances user engagement, as it provides essential decision support that is increasingly vital in various professional settings.","derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+three broad categories, which we call Practical Guidance, Seeking Information, and Writing. Practical
+Guidance is the most common use case and includes activities like tutoring and teaching, how-to
+advice about a variety of topics, and creative ideation.7 Seeking Information includes searching for
+information about people, current events, products, and recipes, and appears to be a very close sub-
+stitute for web search. Writing includes the automated production of emails, documents and other
+communications, but also editing, critiquing, summarizing, and translating text provided by the user.
+Writing is the most common use case at work, accounting for 40% of work-related messages on average
+in June 2025. About two-thirds of all Writing messages ask ChatGPT to modify user text (editing,
+critiquing, translating, etc.) rather than creating new text from scratch. About 10% of all messages
+
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more 
+common for educated users in highly-paid professional occupations. We classify messages by 
+conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are 
+the three most common topics and collectively account for nearly 80% of all conversations. 
+Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital 
+outputs compared to traditional search engines. Computer programming and self-expression both 
+represent relatively small shares of use. Overall, we find that ChatGPT provides economic value 
+through decision support, which is especially important in knowledge-intensive jobs.
+Aaron Chatterji
+Duke University
+Fuqua School of Business 
+and OpenAI
+ronnie@duke.edu
+Thomas Cunningham 
+OpenAI
+tom.cunningham@gmail.com
+David J. Deming
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more"
+5de49e45-570a-470a-bcd8-31438a36de35,multi_context,"What were the key milestones in the development and launch of ChatGPT, and how do these milestones compare to those of other major AI language models released within the same timeframe?",When was ChatGPT launched?,"The development and launch of ChatGPT marked significant milestones in the evolution of AI language models. Key milestones include:
+
+1. **Launch Date**: ChatGPT was officially launched in November 2022. This initiation marked the entry of a mass-market chatbot that quickly gained traction among users.
+
+2. **Rapid User Adoption**: By July 2025, ChatGPT had reached approximately 700 million users, translating to around 10% of the global adult population. This rapid adoption is noted as unprecedented for a new technology, highlighting its swift global diffusion.
+
+3. **Growth in Usage**: The volume of messages sent via ChatGPT grew to 18 billion per week by mid-2025. This statistic underscores not only the model's popularity but also its integration into daily communication.
+
+4. **Changing User Demographics**: Initially, early adopters were disproportionately male, but the gender gap in usage narrowed significantly over time. Additionally, higher growth rates were observed in lower-income countries, indicating a broadening user base.
+
+5. **Usage Patterns**: Research showed a shift in the nature of usage, with a notable increase in non-work-related messages, which rose from 53% to over 70% of total usage. This suggests that ChatGPT is being utilized for a diverse range of applications beyond professional contexts.
+
+In comparison, while the context does not provide specific details on other major AI language models released within the same timeframe, it emphasizes that the sudden growth in LLM capabilities and the widespread adoption of ChatGPT has intensified interest in the impact of AI on various sectors, such as economic growth and employment. This indicates that ChatGPT's milestones may be more pronounced than those of its contemporaries, particularly in terms of user adoption and engagement metrics.
+
+Overall, the context highlights ChatGPT’s significant milestones as a leading AI language model, while also suggesting that comparative data on other models is limited in the provided information.","1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+is limited public information on how they are used. A number of surveys have measured self-reported
+adoption of LLMs (Bick et al., 2024; Pew Research Center, 2025); however there are reasons to expect
+bias in self-reports (Ling and Imas, 2025), and none of these papers have been able to directly track
+the quantity or nature of chatbot conversations.
+Two recent papers do report statistics on chatbot conversations, classified in a variety of ways
+(Handa et al., 2025; Tomlinson et al., 2025). We build on this work in several respects. First, the pool
+of users on ChatGPT is far larger, meaning we expect our data to be a closer approximation to the
+average chatbot user.4 Second, we use automated classifiers to report on the types of messages that
+users send using new classification taxonomies relative to the existing literature. Third, we report the
+diffusion of chatbot use across populations and the growth of different types of usage within cohorts."
+a9d26dd0-55d8-46b8-81c8-257a4742d7ce,multi_context,"By July 2025, how did the weekly messaging volume of users compare to the average weekly engagement metrics from the previous year, and what factors contributed to any changes observed in user messaging behavior during that period?",How many messages were being sent weekly by users by July 2025?,"By July 2025, the weekly messaging volume of users showed a significant increase compared to the average weekly engagement metrics from the previous year. Specifically, in June 2024, the total number of messages was 451 million, while in June 2025, that number surged to 2,627 million. This represents a substantial increase in messaging volume, indicating a trend towards higher engagement.
+
+The breakdown of messaging showed that non-work-related messages grew at a faster rate than work-related messages. In June 2024, non-work messages accounted for 53% (238 million) of the total, while by June 2025, they rose to 73% (1,911 million). Conversely, work-related messages decreased from 47% (213 million) to 27% (716 million) during the same period. This change signifies that non-work messaging not only grew more rapidly but also began to dominate overall messaging behavior.
+
+Several factors contributed to these observed changes in user messaging behavior:
+
+1. **Cohort Usage Changes**: The decrease in work-related messages was primarily attributed to changing usage patterns within existing user cohorts rather than a shift in the demographic composition of new users. This suggests that even users who were previously engaged in work-related messaging began to utilize the platform more for non-work purposes.
+
+2. **Home Production Impact**: The context mentions that while much analysis has focused on AI's impact on productivity in paid work, the significance of AI in non-work-related activities (home production) is comparable, if not larger. This may indicate a growing recognition of the utility of AI tools in personal and leisure activities.
+
+3. **Consumer Surplus**: Research cited in the context suggests that there is a substantial consumer surplus associated with generative AI, indicating that users value the non-work applications of AI significantly. The estimated consumer surplus of at least $97 billion in 2024 in the US further underscores the increasing adoption and satisfaction with non-work-related uses of ChatGPT.
+
+In summary, by July 2025, the weekly messaging volume experienced dramatic growth, with non-work messages significantly outpacing work messages due to shifts in user engagement patterns and the rising value perceived in non-work applications of AI.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+d580e771-2c76-463b-99d7-a1b3a0a6590e,multi_context,"What percentage of total messages in June 2025 were work-related, and how does this compare to the percentage of work-related messages in June 2024, considering the overall increase or decrease in total messages during that period?",What percentage of total messages in June 2025 were work-related?,"In June 2024, the total number of messages was 451 million, of which 213 million (47%) were work-related, and 238 million (53%) were non-work-related. In contrast, in June 2025, the total number of messages increased to 2,627 million, with 716 million (27%) being work-related and 1,911 million (73%) being non-work-related.
+
+To calculate the percentage of work-related messages for both years:
+
+1. **June 2024:**
+   - Work-related messages: 213 million
+   - Total messages: 451 million
+   - Percentage of work-related messages = (213 / 451) * 100 = 47%
+
+2. **June 2025:**
+   - Work-related messages: 716 million
+   - Total messages: 2,627 million
+   - Percentage of work-related messages = (716 / 2,627) * 100 = 27%
+
+### Comparison:
+- The percentage of work-related messages decreased from **47%** in June 2024 to **27%** in June 2025. This reflects a significant decline in the share of work-related messages despite an increase in the absolute number of work-related messages from 213 million to 716 million.
+
+### Total Messages Growth:
+- Total messages grew from 451 million in June 2024 to 2,627 million in June 2025, indicating a substantial increase in overall message volume.
+
+### Summary:
+- In summary, while the total number of work-related messages rose in absolute terms, the percentage of these messages relative to total messages decreased significantly, highlighting a trend where non-work-related messages are growing faster and now make up a larger portion of total messages. The share of work-related messages fell by 20 percentage points from June 2024 to June 2025, illustrating a shift in user engagement towards non-work contexts.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+54641725-9f2a-45b8-84df-2e9d65c460c9,multi_context,"What were the total messages recorded in June 2024 compared to the previous months, and how do these figures reflect trends in user engagement and platform activity during that period?",How many total messages were recorded in June 2024?,"In June 2024, the total number of messages recorded on ChatGPT was 451 million, with a breakdown of 238 million (53%) classified as non-work-related messages and 213 million (47%) as work-related messages. This represents a notable increase from previous months, indicating a significant trend in user engagement and platform activity.
+
+The context suggests that while the total message volume has been on a continuous upward trajectory, non-work messages have been growing at a faster pace. By June 2024, non-work messages accounted for a majority of the total messages, reflecting a shift in user behavior where more individuals are engaging with the platform for non-work purposes. This trend is further emphasized by the observation that non-work messages have come to represent over 70% of all consumer ChatGPT messages, indicating a substantial pivot in how users interact with the platform.
+
+Moreover, the decrease in the share of work-related messages is attributed to changes in usage patterns within existing user cohorts rather than a shift in the demographic of new users. This suggests that as users become more accustomed to the capabilities of ChatGPT, they are increasingly utilizing it for personal or leisure activities outside of work, which is consistent with broader trends in consumer behavior regarding AI tools.
+
+In summary, the recorded total messages in June 2024 reflect a growing engagement with ChatGPT, particularly in non-work contexts, pointing towards a significant transformation in the platform's usage, as users explore its applications beyond professional tasks.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+d36affb0-920e-45ae-af41-cb88da5dc723,multi_context,"What was the percentage of active ChatGPT users with typically masculine first names shortly after its release, and how does this percentage compare to the demographic distribution of first names among the general population at that time? Additionally, what implications might these findings have on the perception of gender representation in AI user engagement?",What percentage of active ChatGPT users had typically masculine first names shortly after its release?,"Shortly after the release of ChatGPT in November 2022, approximately 80% of active users had typically masculine first names. This statistic indicates a strong male presence among the early adopters of the platform. In contrast, as of June 2025, this percentage had significantly declined to 48%, with active users slightly more likely to have typically feminine first names at that time.
+
+When comparing these figures to the general demographic distribution of first names among the population, the context does not provide specific data on the gender distribution of first names in the broader population during that time. Therefore, we cannot make a direct comparison between the active ChatGPT user base and the general population based solely on the provided information.
+
+The implications of these findings on the perception of gender representation in AI user engagement are notable. The initial dominance of users with masculine names suggests a gender bias in early adoption, which may have reinforced stereotypes about technology and AI being male-oriented fields. However, the narrowing of the gender gap over time indicates a shift towards more diverse user engagement, potentially reflecting broader societal changes in attitudes toward technology and its accessibility to different genders. This evolution may foster a more inclusive perception of AI technologies and encourage participation from a wider demographic, thus promoting gender equity in technology usage and development.","to Games and Role Play. In contrast, Zao-Sanders (2025) estimates that Therapy/Companionship is
+the most prevalent use case for generative AI.9
+We also document several important facts about demographic variation in ChatGPT usage. First,
+we show evidence that the gender gap in ChatGPT usage has likely narrowed considerably over time,
+and may have closed completely. In the few months after ChatGPT was released about 80% of active
+users had typically masculine first names.10 However, that number declined to 48% as of June 2025,
+with active users slightly more likely to have typically feminine first names. Second, we find that
+nearly half of all messages sent by adults were sent by users under the age of 26, although age gaps
+have narrowed somewhat in recent months. Third, we find that ChatGPT usage has grown relatively
+faster in low- and middle-income countries over the last year. Fourth, we find that educated users and
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+and thinking creatively. Additionally, we find that the work activities associated with ChatGPT usage
+are highly similar across very different kinds of occupations. For example, the work activities Getting
+Information and Making Decisions and Solving Problems are in the top five of message frequency in
+nearly all occupations, ranging from management and business to STEM to administrative and sales
+occupations.
+Overall, we find that information-seeking and decision support are the most common ChatGPT
+use cases in most jobs. This is consistent with the fact that almost half of all ChatGPT usage is
+either Practical Guidance or Seeking Information. We also show that Asking is growing faster than
+9Zao-Sanders (2025) is based on a manual collection and labeling of online resources (Reddit, Quora, online articles),
+and so we believe it likely resulted in an unrepresentative distribution of use cases.
+10Among those with names commonly associated with a particular gender."
+fac5be77-821c-4ea7-998b-3127f4bad951,multi_context,"How do the three categories of the new taxonomy for classifying messages compare in their approach to addressing user output needs, and what implications does this classification have for understanding user intent across different communication contexts?",What are the three categories used in the new taxonomy to classify messages according to the output the user is seeking?,"The new taxonomy for classifying messages into three categories—Asking, Doing, and Expressing—offers distinct approaches to addressing user output needs, which in turn has significant implications for understanding user intent across different communication contexts.
+
+1. **Asking**: This category involves users seeking information or clarification to inform decisions, aligning with problem-solving models of knowledge work. For example, a user might ask ChatGPT for data or insights to support a business decision. Given that approximately 49% of messages are classified as Asking, this indicates a substantial demand for information retrieval and clarification, which is crucial in professional contexts where informed decisions are necessary.
+
+2. **Doing**: In this category, users are focused on producing outputs or performing specific tasks. This reflects classic task-based models of work, where the primary goal is to execute tasks effectively, such as drafting reports or generating content. The notable increase to about 56% of work-related messages being classified as Doing by July 2025 suggests a growing reliance on AI for task completion. This trend highlights the shift towards using AI as a productivity tool in professional settings, particularly among users in high-paying occupations.
+
+3. **Expressing**: This category captures users expressing their views or feelings without seeking specific information or action. Although this constitutes a smaller portion of messages (approximately 11%), it is essential for understanding the social and emotional dimensions of communication. Users may turn to ChatGPT for emotional support or to articulate thoughts, which indicates a different type of interaction compared to the more utilitarian Asking and Doing categories.
+
+The implications of this classification system for understanding user intent are significant. It reveals the diverse motivations behind user interactions with ChatGPT across different contexts—professional versus personal. For instance, the predominance of Doing in work-related messages suggests that users are increasingly integrating AI into their workflows for efficiency, whereas the growth of non-work messages indicates that users also find value in AI for personal expression and social interaction.
+
+Additionally, the insights derived from this taxonomy can guide developers and researchers in tailoring AI capabilities to meet user needs more effectively. Understanding that a large proportion of messages are oriented towards task completion can inform the design and functionality of AI tools to enhance productivity. Conversely, recognizing the importance of expressing emotions or opinions can lead to improvements in AI's conversational capabilities, making it more relatable and responsive to users' emotional states.
+
+In summary, the Asking, Doing, and Expressing taxonomy provides a structured way to analyze user interactions with ChatGPT, revealing key insights into user intent and the evolving role of AI in both work and personal contexts.","users in highly-paid professional occupations are substantially more likely to use ChatGPT for work.
+We introduce a new taxonomy to classify messages according to the kind of output the user is
+seeking, using a simple rubric that we call Asking, Doing, or Expressing.11
+Asking is when the
+user is seeking information or clarification to inform a decision, corresponding to problem-solving
+models of knowledge work (e.g., Garicano (2000); Garicano and Rossi-Hansberg (2006); Carnehl and
+Schneider (2025); Ide and Talamas (2025)). Doing is when the user wants to produce some output
+or perform a particular task, corresponding to classic task-based models of work (e.g., Autor et al.
+(2003)). Expressing is when the user is expressing views or feelings but not seeking any information or
+action. We estimate that about 49% of messages are Asking, 40% are Doing, and 11% are Expressing.
+However, as of July 2025 about 56% of work-related messages are classified as Doing (e.g., performing
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+Fourth, we use a secure data clean room protocol to analyze aggregated employment and education
+categories for a sample of our users, lending new insights about differences in the types of messages
+sent by different groups while protecting user privacy.
+Our primary sample is a random selection of messages sent to ChatGPT on consumer plans (Free,
+Plus, Pro) between May 2024 and June 2025.5
+Messages from the user to chatbot are classified
+automatically using a number of different taxonomies: whether the message is used for paid work,
+the topic of conversation, and the type of interaction (asking, doing, or expressing), and the O*NET
+task the user is performing. Each taxonomy is defined in a prompt passed to an LLM, allowing us to
+classify messages without any human seeing them. We give the text of most prompts in Appendix A
+along with details about how the prompts were validated in Appendix B.6 The classification pipeline is"
+93d75b39-ee4e-47fc-b1ed-34195b3aaa0b,reasoning,"In the context of the working paper titled ""How People Use ChatGPT,"" analyze the contributions of each co-author to the research findings. How do their individual backgrounds and areas of expertise influence the conclusions drawn in the paper? Additionally, evaluate the implications of these findings for future developments in AI communication tools. What comparisons can you make with other research in the field, and how might these insights shape public perceptions and usage of AI technologies?","Who are the co-authors of the working paper titled ""How People Use ChatGPT""?","The working paper titled ""How People Use ChatGPT"" is authored by Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl Yan Shan, and Kevin Wadman. Each co-author brings unique expertise that contributes to the research findings.
+
+1. **Contributions of Co-authors**:
+   - **Aaron Chatterji**: Associated with Duke University's Fuqua School of Business and OpenAI, Chatterji's background likely contributes a business perspective, emphasizing the economic implications of ChatGPT's usage patterns and its value in decision support, particularly in knowledge-intensive jobs.
+   - **Thomas Cunningham**: As a member of OpenAI, Cunningham's direct involvement with the technology provides insights into operational aspects and user experience, helping to frame the findings around real-world applications and the evolution of user demographics.
+   - **David J. Deming**: With ties to Harvard University and NBER, Deming’s academic experience enriches the study with a rigorous methodological approach, possibly influencing the analysis of user data and socioeconomic factors affecting ChatGPT adoption.
+   - **Zoe Hitzig**: Also affiliated with OpenAI, Hitzig likely adds a perspective on the user interface and interactive components of ChatGPT, which may have shaped the understanding of how users engage with the tool.
+   - **Christopher Ong, Carl Yan Shan, and Kevin Wadman**: While their specific backgrounds are not detailed, their inclusion suggests a diverse set of skills that support comprehensive data analysis and interpretation, contributing to the paper's findings on usage patterns.
+
+2. **Influence on Conclusions**:
+   The individual backgrounds of the authors shape the conclusions drawn in the paper by integrating perspectives from business, technology, and academia. This multidisciplinary approach allows for a thorough examination of ChatGPT's impact across different sectors and demographics, particularly in how its usage has shifted over time.
+
+3. **Implications for Future Developments**:
+   The findings indicate a significant shift in the usage of ChatGPT from work-related tasks to non-work-related interactions, with practical guidance and writing dominating conversations. This trend suggests that future AI communication tools should prioritize user-friendly features that cater to a broader range of applications beyond professional contexts. The narrowing of the gender gap and higher adoption rates in lower-income countries further imply that future developments should consider accessibility and inclusivity in design and functionality.
+
+4. **Comparisons with Other Research**:
+   Compared to existing literature on AI usage, this paper highlights distinct trends in user behavior that may differ from earlier studies focused primarily on professional or technical applications. The emphasis on non-work-related usage contrasts with findings that typically prioritize productivity-enhancing applications, thereby enriching the understanding of the social aspects of AI technology.
+
+5. **Shaping Public Perceptions and Usage**:
+   The insights from this research could influence public perceptions by illustrating that AI tools like ChatGPT are not just for professionals but are increasingly integrated into everyday life. This broader acceptance might encourage more diverse user demographics to engage with AI, fostering a culture where AI is seen as an essential tool for both professional and personal tasks. This shift could lead to increased demand for AI technologies that are adaptable to various contexts, ultimately shaping how industries approach AI development and marketing.
+
+In summary, the contributions of the co-authors, coupled with the implications of the findings, suggest a dynamic landscape for AI communication tools, indicating a need for continued research and innovation that reflects the evolving ways in which users interact with technology.","NBER WORKING PAPER SERIES
+HOW PEOPLE USE CHATGPT
+Aaron Chatterji
+Thomas Cunningham
+David J. Deming
+Zoe Hitzig
+Christopher Ong
+Carl Yan Shan
+Kevin Wadman
+Working Paper 34255
+http://www.nber.org/papers/w34255
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2025
+We acknowledge help and comments from Joshua Achiam, Hemanth Asirvatham, Ryan 
+Beiermeister, Rachel Brown, Cassandra Duchan Solis, Jason Kwon, Elliott Mokski, Kevin Rao, 
+Harrison Satcher, Gawesha Weeratunga, Hannah Wong, and Analytics & Insights team. We 
+especially thank Tyna Eloundou and Pamela Mishkin who in several ways laid the foundation for 
+this work. This study was approved by Harvard IRB (IRB25-0983). A repository containing all 
+code run to produce the analyses in this paper is available on request. The views expressed herein 
+are those of the authors and do not necessarily reflect the views of the National Bureau of 
+Economic Research.
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more 
+common for educated users in highly-paid professional occupations. We classify messages by 
+conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are 
+the three most common topics and collectively account for nearly 80% of all conversations. 
+Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital 
+outputs compared to traditional search engines. Computer programming and self-expression both 
+represent relatively small shares of use. Overall, we find that ChatGPT provides economic value 
+through decision support, which is especially important in knowledge-intensive jobs.
+Aaron Chatterji
+Duke University
+Fuqua School of Business 
+and OpenAI
+ronnie@duke.edu
+Thomas Cunningham 
+OpenAI
+tom.cunningham@gmail.com
+David J. Deming
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI"
+873feea7-c7c1-4e3d-b5dc-534d78dc0eb5,reasoning,"Given the working paper number associated with this study, how does the numbering system reflect the research priorities of the institution, and what implications does this have for understanding the evolution of research trends in this field over the past decade? Additionally, how might the content of this specific paper compare to others within the same series in terms of methodological approaches and findings, and what does this suggest about the broader academic discourse?",What is the working paper number associated with this study?,"The working paper number 34255 from the National Bureau of Economic Research (NBER) reflects the research priorities of the institution in that the numbering system typically follows a sequential order based on the date of submission and completion. This systematic approach allows for the tracking of emerging research themes and trends over time, indicating which areas are gaining attention. For example, as the NBER publishes more papers on topics related to technology and economic behavior, one can infer a growing emphasis on these areas within the broader economic research community. Over the past decade, the evolution of research trends in economics has increasingly encompassed the intersection of technology, such as the use of AI tools like ChatGPT, and their implications for labor markets and productivity.
+
+Regarding the content of this specific paper, ""How People Use ChatGPT,"" it can be compared to other papers within the NBER working paper series by examining methodological approaches and findings. This paper likely employs empirical analysis and data collection methods to investigate user interactions with ChatGPT, which may differ from other papers that might utilize theoretical models or qualitative analyses. Such diversity in methodological approaches across the series indicates a rich academic discourse, where researchers are exploring topics from various angles. This suggests that the academic community is not only focused on traditional economic analysis but is also integrating new technologies and innovative tools into their research frameworks, reflecting a broader shift in the discipline towards addressing contemporary issues in the digital age. 
+
+Overall, the implications of the numbering system and the comparative analysis of methodologies highlight the dynamic nature of economic research and the ongoing adaptation of scholars to emerging trends and technologies.","Economic Research.
+At least one co-author has disclosed additional relationships of potential relevance for this research. 
+Further information is available online at http://www.nber.org/papers/w34255
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2025 by Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, 
+Carl Yan Shan, and Kevin Wadman. All rights reserved. Short sections of text, not to exceed two 
+paragraphs, may be quoted without explicit permission provided that full credit, including © 
+notice, is given to the source.
+
+NBER WORKING PAPER SERIES
+HOW PEOPLE USE CHATGPT
+Aaron Chatterji
+Thomas Cunningham
+David J. Deming
+Zoe Hitzig
+Christopher Ong
+Carl Yan Shan
+Kevin Wadman
+Working Paper 34255
+http://www.nber.org/papers/w34255
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+September 2025
+We acknowledge help and comments from Joshua Achiam, Hemanth Asirvatham, Ryan 
+Beiermeister, Rachel Brown, Cassandra Duchan Solis, Jason Kwon, Elliott Mokski, Kevin Rao, 
+Harrison Satcher, Gawesha Weeratunga, Hannah Wong, and Analytics & Insights team. We 
+especially thank Tyna Eloundou and Pamela Mishkin who in several ways laid the foundation for 
+this work. This study was approved by Harvard IRB (IRB25-0983). A repository containing all 
+code run to produce the analyses in this paper is available on request. The views expressed herein 
+are those of the authors and do not necessarily reflect the views of the National Bureau of 
+Economic Research.
+
+10Among those with names commonly associated with a particular gender.
+11Appendix A gives the full prompt text and Appendix B gives detail about how the prompts were validated against
+public conversation data.
+3"
+56e667c4-af44-4eff-9877-acf0404d5b27,reasoning,"In July 2025, what percentage of the world's adult population had adopted ChatGPT, and how does this adoption rate correlate with factors such as technological literacy, socioeconomic status, and access to digital infrastructure across different regions? Additionally, analyze the implications of this adoption on the global workforce, particularly in terms of job displacement and the emergence of new job categories, while comparing these trends to the adoption rates of previous transformative technologies, such as the internet and smartphones. What underlying reasons can be identified for the disparities in adoption rates across various demographics?",What percentage of the world's adult population had adopted ChatGPT by July 2025?,"As of July 2025, approximately 10% of the world's adult population had adopted ChatGPT, amounting to 700 million users sending 18 billion messages weekly. This rapid adoption is unprecedented for a new technology, indicating significant interest and usage across diverse demographics.
+
+### Correlation with Technological Literacy, Socioeconomic Status, and Digital Infrastructure:
+
+1. **Technological Literacy**: The early adopters of ChatGPT were predominantly male, but the gender gap has since narrowed, suggesting that increasing technological literacy among women may have contributed to broader adoption. This indicates that as familiarity with technology grows, adoption rates can increase.
+
+2. **Socioeconomic Status**: Notably, the growth rates for ChatGPT adoption were higher in lower-income countries, which contrasts with typical patterns seen in technology adoption where wealthier regions often lead. This suggests that economic barriers may be lessening, allowing more individuals in these regions to access and utilize advanced technologies.
+
+3. **Access to Digital Infrastructure**: The ability to use ChatGPT effectively hinges on reliable internet access and digital devices. Regions with better infrastructure typically see higher adoption rates, but the findings indicate that even in less developed areas, adoption is accelerating, potentially due to mobile access and more affordable data plans.
+
+### Implications for the Global Workforce:
+
+The adoption of ChatGPT has significant implications for the global workforce:
+
+- **Job Displacement**: The rise of AI technologies like ChatGPT may lead to the displacement of certain jobs, particularly those involving routine cognitive tasks. The increase in work-related message usage within ChatGPT conversations suggests that users are leveraging the tool for professional tasks, which could automate or streamline many job functions.
+
+- **Emergence of New Job Categories**: Just as previous technological revolutions have created new job categories, the rise of AI and tools like ChatGPT is expected to generate demand for roles focused on AI management, ethical oversight, and integration of AI into business processes. 
+
+### Comparison with Previous Technologies:
+
+When comparing the adoption of ChatGPT to past transformative technologies like the internet and smartphones, it is noted that the speed of ChatGPT's diffusion is remarkable. For instance, the internet and smartphones took several years to achieve similar levels of user engagement and integration into daily life. This rapid adoption could be attributed to the existing familiarity with digital technologies and the high utility that ChatGPT offers as a versatile tool for both work and personal use.
+
+### Disparities in Adoption Rates:
+
+While the context does not provide explicit reasons for disparities in adoption rates across demographics, a few underlying factors can be inferred:
+
+- **Education**: Higher educational attainment generally correlates with increased technological literacy, which can lead to faster adoption rates.
+
+- **Cultural Factors**: Different regions may have varying cultural attitudes towards technology and AI, affecting willingness to adopt new tools.
+
+- **Economic Conditions**: Economic stability influences access to technology; individuals in economically challenged regions may prioritize basic needs over adopting advanced technology.
+
+In summary, while 10% adoption of ChatGPT by July 2025 signifies significant progress in AI integration, the implications for the workforce, coupled with the factors influencing adoption across demographics, underscore the complex interplay between technology and society.","How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+c5165a67-795b-4d71-8839-9d6f4aca44f9,reasoning,"In the context of ChatGPT usage, analyze the three most common conversation topics by evaluating their relative frequency and significance in user interactions. How do these topics reflect broader societal trends or user needs, and what implications do they have for the future development of AI conversational agents? Additionally, compare the impact of these topics on user engagement and satisfaction, considering how they might influence the design and functionalities of future AI systems.",What are the three most common conversation topics classified in ChatGPT usage?,"In analyzing the three most common conversation topics within ChatGPT usage—Practical Guidance, Seeking Information, and Writing—it is evident that they collectively account for nearly 80% of all interactions. This frequency not only highlights user preferences but also reflects broader societal trends and needs, ultimately influencing future AI conversational agent developments.
+
+### 1. Practical Guidance
+Practical Guidance is identified as the most prevalent topic, encompassing tutoring, teaching, how-to advice, and creative ideation. This trend signifies a strong demand for personalized learning and skill development, particularly in an era where continuous education is essential for career advancement. By offering tailored assistance in various domains, ChatGPT serves as a valuable tool for users seeking to enhance their knowledge and capabilities. This emphasis on practical guidance indicates a growing reliance on technology to support educational endeavors and personal development. 
+
+### 2. Seeking Information
+The second most common topic, Seeking Information, includes inquiries about people, current events, products, and recipes. This topic acts as a substitute for traditional web searches, demonstrating a shift in user behavior toward conversational interfaces for information retrieval. The significance of this trend lies in the increasing expectation for instant, accessible information, reflecting a broader societal trend toward efficiency and immediacy in knowledge acquisition. As users gravitate toward AI for quick answers, future AI systems may need to enhance their information retrieval capabilities, ensuring accuracy and relevance.
+
+### 3. Writing
+Writing dominates work-related interactions, accounting for approximately 40% of all work messages. This includes automated production of various communications as well as editing and critiquing user-generated text. The predominance of writing tasks suggests a significant role for AI in enhancing productivity within knowledge-intensive jobs. The ability of ChatGPT to assist in writing not only streamlines workflow but also indicates a cultural shift towards leveraging technology for creative and professional outputs. Future AI developments may focus on improving writing assistance features, as user demand for such capabilities continues to rise.
+
+### Implications for User Engagement and Satisfaction
+The impact of these topics on user engagement is substantial. Practical Guidance fosters a sense of personalized support, enhancing user satisfaction as individuals feel their specific needs are being addressed. Seeking Information aligns with the contemporary emphasis on quick access to knowledge, likely leading to higher engagement levels as users find AI interactions to be efficient and effective. Writing, being central to many professional tasks, directly contributes to productivity, which can significantly boost user satisfaction, especially in work contexts.
+
+### Future Development of AI Systems
+Given the prominence of these topics, future AI conversational agents will likely evolve to better meet user needs in several ways:
+- **Enhanced Learning Capabilities:** AI systems may incorporate more sophisticated educational tools and personalized feedback mechanisms to improve Practical Guidance.
+- **Improved Information Retrieval:** To cater to the Seeking Information topic, AI may need to refine its algorithms for more accurate and contextually relevant responses.
+- **Advanced Writing Features:** As writing remains a critical area of use, AI systems may develop more nuanced editing and content generation capabilities to assist users in producing quality outputs.
+
+In conclusion, the prevailing conversation topics of Practical Guidance, Seeking Information, and Writing not only reflect current user needs but also signal essential areas for the future development of AI conversational agents. By focusing on these domains, developers can enhance user engagement and satisfaction, ultimately shaping the next generation of AI interactions.","messages, which have grown from 53% to more than 70% of all usage. Work usage is more 
+common for educated users in highly-paid professional occupations. We classify messages by 
+conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are 
+the three most common topics and collectively account for nearly 80% of all conversations. 
+Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital 
+outputs compared to traditional search engines. Computer programming and self-expression both 
+represent relatively small shares of use. Overall, we find that ChatGPT provides economic value 
+through decision support, which is especially important in knowledge-intensive jobs.
+Aaron Chatterji
+Duke University
+Fuqua School of Business 
+and OpenAI
+ronnie@duke.edu
+Thomas Cunningham 
+OpenAI
+tom.cunningham@gmail.com
+David J. Deming
+Harvard University
+Harvard Kennedy School 
+and NBER
+david_deming@harvard.edu
+Zoe Hitzig
+OpenAI
+
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+three broad categories, which we call Practical Guidance, Seeking Information, and Writing. Practical
+Guidance is the most common use case and includes activities like tutoring and teaching, how-to
+advice about a variety of topics, and creative ideation.7 Seeking Information includes searching for
+information about people, current events, products, and recipes, and appears to be a very close sub-
+stitute for web search. Writing includes the automated production of emails, documents and other
+communications, but also editing, critiquing, summarizing, and translating text provided by the user.
+Writing is the most common use case at work, accounting for 40% of work-related messages on average
+in June 2025. About two-thirds of all Writing messages ask ChatGPT to modify user text (editing,
+critiquing, translating, etc.) rather than creating new text from scratch. About 10% of all messages
+
+1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported"
+9f5235e3-d122-4486-81b2-4692b4481121,reasoning,"In the context of the rapid evolution of AI language models, analyze the implications of ChatGPT's launch date on the advancements in natural language processing technology. How did the release of ChatGPT in November 2022 compare to earlier models in terms of capabilities and public reception, and what does this suggest about the trajectory of AI development moving forward?",When was ChatGPT launched?,"The launch of ChatGPT in November 2022 marked a significant milestone in the evolution of AI language models, particularly in the realm of natural language processing (NLP) technology. The rapid adoption of ChatGPT, which saw usage grow to approximately 700 million users sending 18 billion messages weekly by July 2025, illustrates an unprecedented speed of global diffusion for a new technology (Bick et al., 2024). This rapid uptake is indicative of advancements in AI capabilities compared to earlier models.
+
+**Comparison to Earlier Models:**
+ChatGPT is a product of advancements in Large Language Models (LLMs), which have evolved significantly over the previous decade. Unlike earlier models, ChatGPT was designed to be user-friendly and accessible to the general public, facilitating a shift towards a mass-market chatbot. This represents a departure from previous iterations of AI models that were often more technical and less engaging for the average user. 
+
+In terms of capabilities, ChatGPT has demonstrated an enhanced ability to understand context, generate coherent responses, and engage users in a conversational manner, which surpasses earlier models significantly. The context notes that by April 2025, ChatGPT was receiving over ten times the visitors of its closest competitors, Claude and Copilot, indicating its superior performance and public reception (Wiggers, 2025).
+
+**Public Reception:**
+The public reception of ChatGPT has been overwhelmingly positive, with a notable increase in adoption across diverse demographics, including a significant narrowing of the gender gap and higher growth rates in lower-income countries. This broad acceptance underscores the model's effectiveness and the growing interest in AI applications. The usage data reveals a transition in how ChatGPT is utilized, with non-work-related messages expanding from 53% to more than 70% of total usage, indicating its integration into everyday life beyond professional contexts.
+
+**Implications for Future AI Development:**
+The trajectory of AI development suggested by the success of ChatGPT points to several implications. Firstly, the rapid adoption signifies an increasing reliance on AI for both work and personal use, which may lead to deeper integration of AI technologies in various sectors. The interest in AI's impact on economic growth, employment, and society is heightened, as indicated by the references to ongoing studies (Acemoglu, 2024; Korinek and Suh, 2024; Eloundou et al., 2025; Kulveit et al., 2025).
+
+Moreover, the swift evolution of LLMs like ChatGPT implies that future models will likely continue to enhance their capabilities, becoming even more sophisticated and versatile. The focus on privacy and user experience, as seen in the protective measures for work-related messages, also suggests that future developments will prioritize ethical considerations alongside technological advancement.
+
+In conclusion, the launch of ChatGPT has not only set a new standard for NLP technology but also catalyzed discussions on the broader implications of AI in society. This suggests that the future trajectory of AI will involve continued innovation, broader accessibility, and a critical examination of the societal impacts of these powerful tools.","1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+d0574ae2-e9b3-4105-a16e-7488aaf527bd,reasoning,"By July 2025, what factors contributed to the observed volume of messages sent weekly by users, and how did this volume compare to previous years? Additionally, analyze the implications of this trend on user engagement and platform dynamics, considering both technological advancements and changes in user behavior. Why might these factors influence the overall effectiveness of communication on the platform?",How many messages were being sent weekly by users by July 2025?,"By July 2025, the volume of messages sent weekly by users of ChatGPT reached an unprecedented 18 billion, a significant increase from previous years. This growth can be attributed to several factors, primarily technological advancements in AI capabilities, changes in user behavior, and the platform's rapid global diffusion.
+
+### Factors Contributing to Message Volume
+
+1. **Technological Advancements**: The development of Large Language Models (LLMs) has significantly enhanced the capabilities of AI chatbots like ChatGPT. The improvements in AI performance have made the technology more appealing for users, facilitating a wider range of applications beyond just work-related tasks.
+
+2. **User Behavior Changes**: There has been a noticeable shift in the types of messages sent. By June 2025, non-work-related messages comprised 73% of total messages, indicating a growing trend of users utilizing ChatGPT for personal or leisure activities. This shift suggests that users are increasingly integrating AI into their daily lives, enhancing their engagement with the platform.
+
+3. **User Base Expansion**: The user base reached 700 million by July 2025, representing about 10% of the global adult population. This rapid adoption has contributed to the overall increase in message volume as more individuals engage with the platform.
+
+### Comparison to Previous Years
+
+The growth in message volume from June 2024 to June 2025 is striking, with total messages increasing from 451 million to 2,627 million. This represents a substantial rise, with non-work messages growing at a faster rate than work-related messages. The data indicates that while work messages still account for a significant portion of usage, their share is declining, which reflects changing user preferences.
+
+### Implications of the Trend
+
+1. **User Engagement**: The increase in non-work-related messages indicates a broadening of the platform's appeal and suggests that users are finding diverse applications for the technology. This trend can enhance user retention and loyalty as individuals become more reliant on the platform for various functions.
+
+2. **Platform Dynamics**: The shift in message composition impacts how the platform is developed and marketed. With non-work messages dominating, there may be a need for features and tools tailored specifically for personal use, which could further drive engagement and user satisfaction.
+
+3. **Communication Effectiveness**: The effectiveness of communication on the platform may be influenced by the diverse types of interactions users are having. As users engage more for personal reasons, the context and quality of communication could vary significantly compared to work-related discussions. This diversification could lead to richer interactions, but it may also complicate the platform's ability to maintain effective communication standards across different user intents.
+
+In summary, the dramatic increase in weekly message volume by July 2025 can be attributed to technological advancements, changes in user behavior, and a rapidly growing user base. This trend has significant implications for user engagement, platform dynamics, and the overall effectiveness of communication on ChatGPT, suggesting that strategies may need to evolve alongside these developments.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+1
+Introduction
+ChatGPT launched in November 2022. By July 2025, 18 billion messages were being sent each week
+by 700 million users, representing around 10% of the global adult population.1 For a new technology,
+this speed of global diffusion has no precedent (Bick et al., 2024).
+This paper studies consumer usage of ChatGPT, the first mass-market chatbot and likely the
+largest.2 ChatGPT is based on a Large Language Model (LLM), a type of Artificial Intelligence (AI)
+developed over the last decade and generally considered to represent an acceleration in AI capabilities.3
+The sudden growth in LLM abilities and adoption has intensified interest in the effects of artificial
+intelligence on economic growth (Acemoglu, 2024; Korinek and Suh, 2024); employment (Eloundou
+et al., 2025); and society (Kulveit et al., 2025). However, despite the rapid adoption of LLMs, there
+is limited public information on how they are used. A number of surveys have measured self-reported"
+a6547007-ab62-471c-85cc-8ee5f5400593,reasoning,"In June 2025, what percentage of total messages were work-related, and how does this percentage compare to the work-related message percentages from the previous six months? Analyze the factors that may have influenced any changes in this percentage, and discuss the potential implications of these trends on workplace communication efficiency and employee productivity. What underlying reasons can be attributed to shifts in message content, and how might these shifts reflect broader organizational changes or industry trends?",What percentage of total messages in June 2025 were work-related?,"In June 2025, the percentage of total messages that were work-related was 27%, reflecting a significant decrease compared to June 2024, where work-related messages constituted 47%. This represents a 20 percentage point drop in the proportion of work-related messages over the one-year period.
+
+Several factors may have influenced this notable change in message composition. Firstly, the overall volume of messages increased substantially from 451 million in June 2024 to 2,627 million in June 2025. While work-related messages grew in absolute terms (from 213 million to 716 million), the growth rate of non-work-related messages was disproportionately higher, jumping from 238 million to 1,911 million. This indicates a shift in user engagement, with a greater emphasis on non-work-related interactions.
+
+The context suggests that the decrease in the share of work-related messages is attributed primarily to changing usage patterns among existing user cohorts rather than an influx of different types of new users. This could reflect broader trends in workplace dynamics, such as an increased focus on work-life balance and the integration of AI tools into more casual, personal applications. Additionally, the rise of generative AI technologies has enabled users to leverage these tools for a wider range of tasks beyond traditional work functions, thus increasing the volume of non-work-related messages.
+
+The implications of these trends on workplace communication efficiency and employee productivity are significant. As non-work-related messages dominate, the potential for distractions may rise, possibly impacting focus and productivity in professional settings. However, it may also indicate a shift towards a more relaxed work culture, where employees feel comfortable using AI tools for personal tasks, which could enhance overall job satisfaction.
+
+Underlying reasons for the shifts in message content could include evolving job roles that increasingly emphasize creativity and communication skills, as indicated by the data showing that a large portion of work-related messages is centered around tasks like writing and decision-making. As organizations adapt to these changes, they may find themselves needing to cultivate environments that support both personal and professional communication effectively.
+
+In summary, the decline in work-related message percentages reflects changing user behaviors and potentially broader organizational and societal shifts. It raises important considerations for companies regarding communication strategies, employee engagement, and the integration of AI tools into daily workflows.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+job tasks), and nearly three-quarters of those are Writing tasks. The relative frequency of writing-
+related conversations is notable for two reasons. First, writing is a task that is common to nearly all
+white-collar jobs, and good written communication skills are among the top “soft” skills demanded by
+employers (National Association of Colleges and Employers, 2024). Second, one distinctive feature of
+generative AI, relative to other information technologies, is its ability to produce long-form outputs
+such as writing and software code.
+We also map message content to work activities using the Occupational Information Network
+(O*NET), a survey of job characteristics supported by the U.S. Department of Labor. We find that
+about 81% of work-related messages are associated with two broad work activities: 1) obtaining,
+documenting, and interpreting information; and 2) making decisions, giving advice, solving problems,"
+a664594a-c9fe-4ecb-a7e6-e1040bb8979b,reasoning,"In analyzing the total number of messages recorded in June 2024, consider the trends in message volume compared to previous months and the factors that may have influenced any changes, such as external events, marketing campaigns, or shifts in user engagement. How do these factors correlate with the overall increase or decrease in messaging activity, and what implications might this have for understanding user behavior or predicting future messaging trends? Additionally, how does the June 2024 data align with broader patterns observed in the same period over previous years, and what insights can be drawn about the effectiveness of communication strategies during that time?",How many total messages were recorded in June 2024?,"In June 2024, the total number of messages recorded was 451 million, with 238 million (53%) categorized as non-work messages and 213 million (47%) as work-related messages. This data indicates a significant volume of engagement, reflecting continuous growth in messaging activity compared to previous months. 
+
+### Trends in Message Volume
+
+The trend observed in June 2024 shows a notable increase in messaging volume, especially in non-work-related communications, which have outpaced work-related messages. This shift suggests a growing user preference for utilizing ChatGPT for personal or leisure activities rather than solely for professional tasks. By June 2025, the total message count surged to 2.627 billion, with non-work messages comprising 73% of the total, indicating a sustained trend of increasing non-work-related usage.
+
+### Factors Influencing Changes
+
+Several factors likely contributed to the changes in message volume:
+
+1. **User Engagement**: The data suggests that the decrease in the share of work-related messages is linked to changing usage patterns among existing users rather than an influx of new users. This implies that current users are finding more value in non-work applications of ChatGPT.
+
+2. **External Events and Marketing Campaigns**: While the context does not specify particular external events or marketing campaigns that occurred in June 2024, it is reasonable to infer that increased awareness and adoption of generative AI technologies, along with targeted marketing efforts, may have encouraged broader usage of ChatGPT for non-work purposes.
+
+3. **Economic Factors**: The report highlights a consumer surplus of at least $97 billion in 2024 in the US, indicating a high perceived value of generative AI. This economic context may have driven users to engage more with the platform, particularly for non-work purposes.
+
+### Correlation with User Behavior
+
+The growing dominance of non-work messages suggests a shift in user behavior, where individuals leverage the capabilities of AI for personal, educational, or entertainment purposes. This trend could be indicative of a broader cultural shift towards integrating AI into everyday life, which may have implications for future communication strategies and product development.
+
+### Historical Context and Insights
+
+Comparing the June 2024 data with broader patterns from previous years reveals a consistent increase in messaging activity. The rapid growth in non-work-related usage aligns with findings from previous studies, such as those by Collis and Brynjolfsson (2025), indicating that AI's impact is not limited to productivity in paid work but extends significantly into personal and recreational domains.
+
+### Implications for Future Trends
+
+The insights drawn from June 2024's data suggest that businesses and developers may need to adapt their communication strategies to cater to this evolving user engagement model. Understanding that a substantial portion of interactions are now non-work-related could inform future enhancements to ChatGPT, focusing on personal use cases and leisure applications.
+
+In conclusion, the trends observed in June 2024, alongside the shift towards non-work messaging, underscore the importance of analyzing user behavior to predict future messaging trends effectively and refine communication strategies in line with user preferences.","Month
+Non-Work (M)
+(%)
+Work (M)
+(%)
+Total Messages (M)
+Jun 2024
+238
+53%
+213
+47%
+451
+Jun 2025
+1,911
+73%
+716
+27%
+2,627
+Table 1: ChatGPT daily message counts (millions), broken down by likely work-related or non-work-related.
+Total daily counts are exact measurements of message volume from all consumer plans. Daily counts of work
+and non-work related messages are estimated by classifying a random sample of conversations from that day.
+Sampling is done to exclude users who opt-out of sharing their messages for model training, users who self-
+report their age as under 18, logged-out users, deleted conversations, and accounts which have been deactivated
+or banned (details available in Section 3). Reported values are 7-day averages (to smooth weekly fluctuation)
+ending on the 26th of June 2024 and 26th of June 2025.
+messages have grown continuously, but non-work messages have grown faster and now represent more
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+protected by a series of privacy measures, detailed below, to ensure no leakage of sensitive information
+during the automated analysis. In a secure data clean room, we relate taxonomies of messages to
+aggregated employment and education categories.
+Table 1 shows the growth in total message volume for work and non-work usage. Both types of
+1Reuters (2025), Roth (2025)
+2Bick et al. (2024) report that 28% of US adults used ChatGPT in late 2024, higher than any other chatbot.
+3We use the term LLM loosely here and give more details in the following section.
+4Wiggers (2025) reports estimates that in April 2025 ChatGPT was receiving more than 10 times as many visitors
+as either Claude or Copilot.
+5Our sample includes the three consumer plans (Free, Plus, or Pro). OpenAI also offers a variety of other ChatGPT
+plans (Business fka. Teams, Enterprise, Education), which we do not include in our sample."
+49dbd21d-b539-4346-ad37-c9513ffbdec2,reasoning,"How does the percentage of active ChatGPT users with typically masculine first names shortly after its release reflect broader societal trends in gender identity and naming conventions, and what implications might this have for the perceived user demographic of AI technologies? In your analysis, consider how the naming patterns might influence user engagement and the development of AI systems designed to cater to diverse audiences, and compare this with historical data on user demographics in technology adoption.",What percentage of active ChatGPT users had typically masculine first names shortly after its release?,"The percentage of active ChatGPT users with typically masculine first names shortly after its release reflects broader societal trends in gender identity and naming conventions, particularly in relation to technology adoption. In the initial months following the launch of ChatGPT, approximately 80% of active users had typically masculine names. This dominance of male users points to a historical trend where early technology adopters have often been predominantly male, a phenomenon observed in various tech sectors.
+
+However, the marked decline of this figure to 48% by June 2025, with active users slightly more likely to have typically feminine first names, suggests a significant shift in the user demographic. This change may indicate a broader societal movement towards gender inclusivity and a growing acceptance of diverse gender identities, aligning with contemporary discussions on gender fluidity and representation. As AI technologies like ChatGPT become more mainstream, they attract a more varied user base, reflecting changing societal norms that challenge traditional gender roles.
+
+The implications of this shift are multifaceted. First, the changing naming patterns may influence user engagement with AI technologies. A more diverse user demographic could lead to varied use cases and interactions, which may prompt developers to enhance AI systems to cater to a broader audience's needs. This could involve refining user interfaces, expanding language options, or offering features that are sensitive to different cultural and gender identities.
+
+Moreover, the historical context highlights that the tech industry has often been criticized for its lack of diversity and inclusivity. The narrowing gender gap in ChatGPT usage could serve as a case study for other tech products, indicating that as platforms evolve to be more inclusive, they may attract a more balanced demographic. This trend is also supported by the observation that nearly half of all messages sent by adults came from users under the age of 26, suggesting that younger generations, who tend to have more progressive views on gender, are increasingly engaging with AI technologies.
+
+In summary, the changing percentage of users with traditionally masculine names reflects a broader societal trend towards inclusivity in gender identity and naming conventions. This shift has significant implications for user engagement and the development of AI systems, suggesting that a more diverse user base can lead to innovations that better cater to varied audiences, contrasting with historical patterns of technology adoption that favored a predominantly male demographic.","to Games and Role Play. In contrast, Zao-Sanders (2025) estimates that Therapy/Companionship is
+the most prevalent use case for generative AI.9
+We also document several important facts about demographic variation in ChatGPT usage. First,
+we show evidence that the gender gap in ChatGPT usage has likely narrowed considerably over time,
+and may have closed completely. In the few months after ChatGPT was released about 80% of active
+users had typically masculine first names.10 However, that number declined to 48% as of June 2025,
+with active users slightly more likely to have typically feminine first names. Second, we find that
+nearly half of all messages sent by adults were sent by users under the age of 26, although age gaps
+have narrowed somewhat in recent months. Third, we find that ChatGPT usage has grown relatively
+faster in low- and middle-income countries over the last year. Fourth, we find that educated users and
+
+How People Use ChatGPT
+Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl
+Yan Shan, and Kevin Wadman
+NBER Working Paper No. 34255
+September 2025
+JEL No. J01, O3, O4
+ABSTRACT
+Despite the rapid adoption of LLM chatbots, little is known about how they are used. We 
+document the growth of ChatGPT’s consumer product from its launch in November 2022 
+through July 2025, when it had been adopted by around 10% of the world’s adult population. 
+Early adopters were disproportionately male but the gender gap has narrowed dramatically, and 
+we find higher growth rates in lower-income countries. Using a privacy-preserving automated 
+pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. 
+We find steady growth in work-related messages but even faster growth in non-work-related 
+messages, which have grown from 53% to more than 70% of all usage. Work usage is more
+
+and thinking creatively. Additionally, we find that the work activities associated with ChatGPT usage
+are highly similar across very different kinds of occupations. For example, the work activities Getting
+Information and Making Decisions and Solving Problems are in the top five of message frequency in
+nearly all occupations, ranging from management and business to STEM to administrative and sales
+occupations.
+Overall, we find that information-seeking and decision support are the most common ChatGPT
+use cases in most jobs. This is consistent with the fact that almost half of all ChatGPT usage is
+either Practical Guidance or Seeking Information. We also show that Asking is growing faster than
+9Zao-Sanders (2025) is based on a manual collection and labeling of online resources (Reddit, Quora, online articles),
+and so we believe it likely resulted in an unrepresentative distribution of use cases.
+10Among those with names commonly associated with a particular gender."
+9b5cc9b0-8099-4413-ac6c-5017c566f2a8,reasoning,"How do the three categories used in the new taxonomy for classifying messages reflect the different types of outputs users seek, and what implications do these categories have for understanding user intent in communication? Additionally, how might this classification system improve or hinder the effectiveness of message delivery in various contexts compared to traditional classification methods?",What are the three categories used in the new taxonomy to classify messages according to the output the user is seeking?,"The new taxonomy for classifying messages into three categories—Asking, Doing, and Expressing—reflects the different types of outputs users seek by aligning them with specific intents in communication. 
+
+### Categories Explained
+1. **Asking**: This category represents approximately 49% of all messages. Users classified as Asking are primarily seeking information or clarification to aid in decision-making. For example, a professional might ask ChatGPT for data or insights to solve a complex problem, demonstrating a focus on information retrieval.
+
+2. **Doing**: Comprising about 40% of messages, Doing pertains to users wanting to produce a specific output or perform tasks. For instance, a user might request assistance in generating a report or creating a presentation, which corresponds to classic task-based models of work.
+
+3. **Expressing**: This category accounts for 11% of messages and involves users expressing feelings or opinions without a need for information or action. An example could be someone sharing their thoughts on a recent event or trend, which does not necessitate a response or further action.
+
+### Implications for Understanding User Intent
+The classification system provides a clear framework for understanding user intent in communication. By categorizing messages, it allows developers and researchers to analyze how different user needs are met. For instance, recognizing that a significant portion of messages are Asking can guide improvements in information retrieval systems, while a high percentage of Doing messages can indicate a demand for more task-oriented features.
+
+### Effectiveness of Message Delivery
+The taxonomy has the potential to improve message delivery in various contexts compared to traditional classification methods:
+
+- **Targeted Responses**: By understanding whether a user is Asking, Doing, or Expressing, the system can tailor responses more effectively, ensuring that users receive the type of interaction they are seeking. For example, a user Asking for information might benefit from concise, data-driven responses, while someone Doing a task may require step-by-step guidance.
+
+- **Resource Allocation**: Organizations can allocate resources more efficiently based on the classification of messages. If Doing messages are increasing, more resources can be directed toward enhancing task-oriented features.
+
+However, there could also be challenges:
+
+- **Over-Simplification**: The three categories may oversimplify complex user intents that do not fit neatly into one category. For instance, a user might express frustration (Expressing) while also seeking solutions (Asking), complicating response generation.
+
+- **Contextual Nuances**: The taxonomy might not capture the nuances of communication in certain contexts, such as informal conversations, where intentions may blend categories. This could hinder effectiveness if the system misclassifies a message.
+
+In summary, the Asking, Doing, and Expressing taxonomy enhances the understanding of user intent and can significantly improve message delivery by allowing for targeted responses and efficient resource allocation. However, there are potential drawbacks related to oversimplification and the loss of contextual nuances that must be considered.","users in highly-paid professional occupations are substantially more likely to use ChatGPT for work.
+We introduce a new taxonomy to classify messages according to the kind of output the user is
+seeking, using a simple rubric that we call Asking, Doing, or Expressing.11
+Asking is when the
+user is seeking information or clarification to inform a decision, corresponding to problem-solving
+models of knowledge work (e.g., Garicano (2000); Garicano and Rossi-Hansberg (2006); Carnehl and
+Schneider (2025); Ide and Talamas (2025)). Doing is when the user wants to produce some output
+or perform a particular task, corresponding to classic task-based models of work (e.g., Autor et al.
+(2003)). Expressing is when the user is expressing views or feelings but not seeking any information or
+action. We estimate that about 49% of messages are Asking, 40% are Doing, and 11% are Expressing.
+However, as of July 2025 about 56% of work-related messages are classified as Doing (e.g., performing
+
+messages have grown continuously, but non-work messages have grown faster and now represent more
+than 70% of all consumer ChatGPT messages. While most economic analysis of AI has focused on its
+impact on productivity in paid work, the impact on activity outside of work (home production) is on a
+similar scale and possibly larger. The decrease in the share of work-related messages is primarily due to
+changing usage within each cohort of users rather than a change in the composition of new ChatGPT
+users. This finding is consistent with Collis and Brynjolfsson (2025), who use choice experiments to
+uncover willingness-to-pay for generative AI and estimate a consumer surplus of at least $97 billion
+in 2024 alone in the US.
+We next report on a classification of messages using a taxonomy developed at OpenAI for un-
+derstanding product usage (“conversation classifier”). Nearly 80% of all ChatGPT usage falls into
+
+Fourth, we use a secure data clean room protocol to analyze aggregated employment and education
+categories for a sample of our users, lending new insights about differences in the types of messages
+sent by different groups while protecting user privacy.
+Our primary sample is a random selection of messages sent to ChatGPT on consumer plans (Free,
+Plus, Pro) between May 2024 and June 2025.5
+Messages from the user to chatbot are classified
+automatically using a number of different taxonomies: whether the message is used for paid work,
+the topic of conversation, and the type of interaction (asking, doing, or expressing), and the O*NET
+task the user is performing. Each taxonomy is defined in a prompt passed to an LLM, allowing us to
+classify messages without any human seeing them. We give the text of most prompts in Appendix A
+along with details about how the prompts were validated in Appendix B.6 The classification pipeline is"
