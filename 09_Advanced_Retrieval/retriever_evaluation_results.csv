@@ -1,0 +1,8 @@
+Retriever,Context Recall,Faithfulness,Factual Correctness,Response Relevancy,Latency (s)
+naive,0.0,0.0,0.0,0.0,1.89
+bm25,0.0,0.0,0.0,0.0,0.0
+compression,0.0,0.0,0.0,0.0,3.59
+multi_query,0.0,0.0,0.0,0.0,10.0
+parent,0.0,0.0,0.0,0.0,1.3
+ensemble,0.0,0.0,0.0,0.0,12.47
+semantic,0.0,0.0,0.0,0.0,1.16
