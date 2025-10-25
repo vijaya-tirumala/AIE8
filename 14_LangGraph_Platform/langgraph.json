@@ -16,7 +16,17 @@
     "agent_helpful": {
       "graph_id": "agent_with_helpfulness",
       "name": "Agent with Helpfulness Check",
-      "description": "Agent that uses tools and performs a helpfulness check with loop limit."
+      "description": "Agent that uses tools and performs a helpfulness check with loop limit.",
+      "interrupts": [
+        {
+          "node": "agent",
+          "when": "Before"
+        },
+        {
+          "node": "helpfulness",
+          "when": "After"
+        }
+      ]
     }
   }
 }

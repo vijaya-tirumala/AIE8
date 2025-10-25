@@ -39,7 +39,14 @@ Run the repository and complete the following:
 Compare the `agent` and `agent_helpful` assistants defined in `langgraph.json`. Where does the helpfulness evaluator fit in the graph, and under what condition should execution route back to the agent vs. terminate?
 
 ##### ✅ Answer:
-_(enter answer here)_
+The hepfulness evaluator is positioned after the agent's response and only when then agent doesn't make any tool calls it gets invoked. The basic agent and  agent_helpful  helpfulness evaluation. The helpfulness evaluator runs after agent responses without tool calls, using GPT-4.1-mini to assess quality and route back to the agent if unhelpful or terminate if helpful. This creates a self-improving loop with a 10-message safety limit to prevent infinite iterations. 
+
+Agent:
+Yes--> Action to tools
+No --> Route to helpfullness
+then helpfulness decision :
+If not response is No then sends back to agent to get better response. 
+If Yes, meaning response is helpful or the messages exceed 10 then it terminates to stop the infinite loop
 
 #### 🏗️ Activity #1 Debugging A Graph
 
@@ -50,7 +57,10 @@ Select the `agent_with_helpfulness` and set one or more interrupts (at least one
 What are your thoughts on when you would use a Before interrupt vs. an After interrupt?
 
 ##### ✅ Answer:
-_(enter answer here)_
+
+Before interrupt is useful to validate/get clarificatio and modify inputs, inject some parameters like password or token or API Keys; basically where human involvement is needed. For example: Approval workflows for a discount/refund after a certain threshold or get confirmation on use email, phone or account id in customer support cases
+
+After interrupt is useful to validate response from agent, check quality before adding any post processing workflows and also capture any metrics. For ex: Before logging a case check for compliance and refund policies, run security scans for authentication flow or agent response tone in the customer support use cases
 
 
 
