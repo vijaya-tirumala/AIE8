@@ -89,7 +89,46 @@ What are the core components of an `AgentCard`?
 
 ##### ✅ Answer:
 
-<br />
+Agent card identifies with the name, description, I/O modes, url, version skills and capabilities of the agent.
+
+Sample from the current project. 
+{
+  "capabilities": {
+    "pushNotifications": true,
+    "streaming": true
+  },
+  "defaultInputModes": ["text", "text/plain"],
+  "defaultOutputModes": ["text", "text/plain"],
+  "description": "A helpful AI assistant with web search, academic paper search, and document retrieval capabilities",
+  "name": "General Purpose Agent",
+  "preferredTransport": "JSONRPC",
+  "protocolVersion": "0.3.0",
+  "skills": [
+    {
+      "description": "Search the web for current information",
+      "examples": ["What are the latest news about AI?"],
+      "id": "web_search",
+      "name": "Web Search Tool",
+      "tags": ["search", "web", "internet"]
+    },
+    {
+      "description": "Search for academic papers on arXiv",
+      "examples": ["Find recent papers on large language models"],
+      "id": "arxiv_search",
+      "name": "Academic Paper Search",
+      "tags": ["research", "papers", "academic"]
+    },
+    {
+      "description": "Search through loaded documents for specific information",
+      "examples": ["What do the policy documents say about student loans?"],
+      "id": "rag_search",
+      "name": "Document Retrieval",
+      "tags": ["documents", "rag", "retrieval"]
+    }
+  ],
+  "url": "http://localhost:10000/",
+  "version": "1.0.0"
+}
 
 ### ❓ Question #2:
 
@@ -97,7 +136,13 @@ Why is A2A (and other such protocols) important in your own words?
 
 ##### ✅ Answer:
 
-<br /><br />
+
+* Promotes reusability - we use tools developed by others
+* Modular design principles- Easy to plug in and swap other agents and tools decoupling agent implementations
+* Agent card ( as example above) makes it easy to discoverable
+* Standardizes agent-to-agent communication and provides encapsulation
+* Secure: agents don't share internal implementation details but expose only their capabilities, making the system more secure than tightly coupled architectures.
+* May be helpful in load balancing and scalability scenrarios 
 
 <details>
 <summary>🚧 Advanced Build 🚧 (OPTIONAL - <i>open this section for the requirements</i>)</summary>
