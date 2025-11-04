@@ -8,21 +8,34 @@ import logging
 from typing import Dict, Any, Optional, List
 from typing_extensions import TypedDict, Annotated
 
-from guardrails.hub import (
-    RestrictToTopic,
-    DetectJailbreak,
-    CompetitorCheck,
-    LlmRagEvaluator,
-    HallucinationPrompt,
-    ProfanityFree,
-    GuardrailsPII
-)
+# Set up logging
+logger = logging.getLogger(__name__)
+
+# Import guardrails hub validators with error handling
+try:
+    from guardrails.hub import (
+        RestrictToTopic,
+        DetectJailbreak,
+        CompetitorCheck,
+        LlmRagEvaluator,
+        HallucinationPrompt,
+        ProfanityFree,
+        GuardrailsPII
+    )
+except ImportError as e:
+    logger.warning(f"Some guardrails hub packages are not installed: {e}")
+    logger.warning("Install them using: uv run guardrails hub install hub://<package_name>")
+    # Set to None if import fails
+    RestrictToTopic = None
+    DetectJailbreak = None
+    CompetitorCheck = None
+    LlmRagEvaluator = None
+    HallucinationPrompt = None
+    ProfanityFree = None
+    GuardrailsPII = None
 from guardrails import Guard
 from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
 from langgraph.graph.message import add_messages
-
-# Set up logging
-logger = logging.getLogger(__name__)
 
 
 class GuardrailsState(TypedDict):
@@ -31,9 +44,15 @@ class GuardrailsState(TypedDict):
     Attributes:
         messages: List of messages in the conversation history.
         validation_results: Optional validation results from guardrails.
+        validation_failed: Boolean indicating if validation failed.
+        needs_refinement: Boolean indicating if response needs refinement.
+        refinement_count: Number of refinement attempts made.
     """
     messages: Annotated[List[BaseMessage], add_messages]
-    validation_results: Optional[Dict[str, Any]]
+    validation_results: Optional[List[Dict[str, Any]]]
+    validation_failed: Optional[bool]
+    needs_refinement: Optional[bool]
+    refinement_count: Optional[int]
 
 
 def create_guardrails_guard(
@@ -67,6 +86,8 @@ def create_guardrails_guard(
     try:
         # Topic restriction
         if valid_topics or invalid_topics:
+            if RestrictToTopic is None:
+                raise RuntimeError("RestrictToTopic is not installed. Install it with: uv run guardrails hub install hub://tryolabs/restricttotopic")
             guard = guard.use(
                 RestrictToTopic(
                     valid_topics=valid_topics or [],
@@ -80,11 +101,15 @@ def create_guardrails_guard(
         
         # Jailbreak detection
         if enable_jailbreak_detection:
+            if DetectJailbreak is None:
+                raise RuntimeError("DetectJailbreak is not installed. Install it with: uv run guardrails hub install hub://guardrails/detect_jailbreak")
             guard = guard.use(DetectJailbreak())
             logger.debug("Jailbreak detection guard configured")
         
         # PII protection
         if enable_pii_protection:
+            if GuardrailsPII is None:
+                raise RuntimeError("GuardrailsPII is not installed. Install it with: uv run guardrails hub install hub://guardrails/guardrails_pii")
             default_entities = ["CREDIT_CARD", "SSN", "PHONE_NUMBER", "EMAIL_ADDRESS"]
             entities = pii_entities or default_entities
             guard = guard.use(
@@ -97,6 +122,8 @@ def create_guardrails_guard(
         
         # Profanity check
         if enable_profanity_check:
+            if ProfanityFree is None:
+                raise RuntimeError("ProfanityFree is not installed. Install it with: uv run guardrails hub install hub://guardrails/profanity_free")
             guard = guard.use(
                 ProfanityFree(
                     threshold=0.8,
@@ -108,6 +135,8 @@ def create_guardrails_guard(
         
         # Competitor check (optional)
         if enable_competitor_check:
+            if CompetitorCheck is None:
+                raise RuntimeError("CompetitorCheck is not installed. Install it with: uv run guardrails hub install hub://guardrails/competitor_check")
             guard = guard.use(CompetitorCheck())
             logger.debug("Competitor check guard configured")
         
@@ -136,6 +165,8 @@ def create_factuality_guard(
         RuntimeError: If guard configuration fails.
     """
     try:
+        if LlmRagEvaluator is None or HallucinationPrompt is None:
+            raise RuntimeError("LlmRagEvaluator or HallucinationPrompt is not installed. Install it with: uv run guardrails hub install hub://arize-ai/llm_rag_evaluator")
         guard = Guard().use(
             LlmRagEvaluator(
                 eval_llm_prompt_generator=HallucinationPrompt(prompt_name="hallucination_judge_llm"),
@@ -258,12 +289,259 @@ def validate_output(
         }
 
 
+def create_input_validation_node(
+    input_guard: Guard,
+    strict_mode: bool = True
+):
+    """Create a LangGraph node for input validation.
+    
+    Args:
+        input_guard: Guard for validating user inputs.
+        strict_mode: If True, raises exceptions on validation failure.
+            If False, returns error message in state. Default: True.
+        
+    Returns:
+        A function that can be used as a LangGraph node.
+    """
+    def input_validation_node(state: GuardrailsState) -> Dict[str, Any]:
+        """Validate user input messages.
+        
+        Args:
+            state: Current agent state with messages.
+            
+        Returns:
+            Updated state with validation results and error message if validation fails.
+        """
+        from langchain_core.messages import AIMessage
+        
+        messages = state.get("messages", [])
+        
+        if not messages:
+            return {"validation_results": []}
+        
+        # Get the last message (should be user input)
+        last_message = messages[-1]
+        
+        # Only validate HumanMessages
+        if not isinstance(last_message, HumanMessage):
+            return {"validation_results": []}
+        
+        user_input = last_message.content
+        
+        try:
+            logger.debug(f"Validating user input: {user_input[:100]}...")
+            result = validate_input(
+                input_guard,
+                user_input,
+                raise_on_failure=False  # We'll handle failures ourselves
+            )
+            
+            validation_result = {
+                "type": "input",
+                "passed": result["validation_passed"],
+                "message": user_input[:100],
+                "error": result.get("error")
+            }
+            
+            if not result["validation_passed"]:
+                error_message = (
+                    "I apologize, but I cannot process that request. "
+                    "It appears to be outside the scope of student loan assistance, "
+                    "contains inappropriate content, or violates safety guidelines. "
+                    "Please rephrase your question to focus on student loans, financial aid, or education financing."
+                )
+                logger.warning(f"Input validation failed: {result.get('error')}")
+                
+                if strict_mode:
+                    # Return error message instead of raising
+                    error_ai_message = AIMessage(content=error_message)
+                    return {
+                        "messages": [error_ai_message],
+                        "validation_results": [validation_result],
+                        "validation_failed": True
+                    }
+                else:
+                    # Continue with original message but log warning
+                    return {
+                        "validation_results": [validation_result],
+                        "validation_failed": False
+                    }
+            
+            logger.debug("Input validation passed")
+            return {
+                "validation_results": [validation_result],
+                "validation_failed": False
+            }
+                    
+        except Exception as e:
+            logger.error(f"Input validation error: {e}", exc_info=True)
+            error_message = "An error occurred while validating your input. Please try again."
+            validation_result = {
+                "type": "input",
+                "passed": False,
+                "error": str(e)
+            }
+            
+            if strict_mode:
+                error_ai_message = AIMessage(content=error_message)
+                return {
+                    "messages": [error_ai_message],
+                    "validation_results": [validation_result],
+                    "validation_failed": True
+                }
+            return {
+                "validation_results": [validation_result],
+                "validation_failed": False
+            }
+    
+    return input_validation_node
+
+
+def create_output_validation_node(
+    output_guard: Optional[Guard] = None,
+    factuality_guard: Optional[Guard] = None,
+    context: Optional[str] = None,
+    strict_mode: bool = True,
+    max_refinements: int = 3
+):
+    """Create a LangGraph node for output validation.
+    
+    Args:
+        output_guard: Guard for validating agent outputs (content moderation, etc.).
+        factuality_guard: Guard for factuality checking (requires context).
+        context: Optional context for factuality checking.
+        strict_mode: If True, raises exceptions on validation failure.
+            If False, logs warnings but continues. Default: True.
+        max_refinements: Maximum number of refinement attempts. Default: 3.
+        
+    Returns:
+        A function that can be used as a LangGraph node.
+    """
+    def output_validation_node(state: GuardrailsState) -> Dict[str, Any]:
+        """Validate agent output messages.
+        
+        Args:
+            state: Current agent state with messages.
+            
+        Returns:
+            Updated state with validation results.
+        """
+        from langchain_core.messages import AIMessage
+        
+        messages = state.get("messages", [])
+        validation_results = state.get("validation_results", [])
+        refinement_count = state.get("refinement_count", 0)
+        
+        if not messages:
+            return {"validation_results": validation_results}
+        
+        # Get the last message (should be agent output)
+        last_message = messages[-1]
+        
+        # Only validate AIMessages
+        if not isinstance(last_message, AIMessage):
+            return {"validation_results": validation_results}
+        
+        agent_output = last_message.content
+        
+        # If no output guard, skip validation
+        if not output_guard and not factuality_guard:
+            return {"validation_results": validation_results}
+        
+        try:
+            logger.debug(f"Validating agent output: {agent_output[:100]}...")
+            
+            # Validate with output guard (content moderation, profanity, etc.)
+            if output_guard:
+                result = validate_output(
+                    output_guard,
+                    agent_output,
+                    raise_on_failure=False
+                )
+                
+                if not result["validation_passed"]:
+                    validation_results.append({
+                        "type": "output",
+                        "passed": False,
+                        "message": agent_output[:100],
+                        "error": result.get("error")
+                    })
+                    logger.warning(f"Output validation failed: {result.get('error')}")
+                    
+                    if strict_mode and refinement_count < max_refinements:
+                        # Trigger refinement
+                        return {
+                            "validation_results": validation_results,
+                            "validation_failed": True,
+                            "needs_refinement": True,
+                            "refinement_count": refinement_count + 1
+                        }
+            
+            # Validate with factuality guard if context is provided
+            if factuality_guard and context:
+                result = validate_output(
+                    factuality_guard,
+                    agent_output,
+                    context=context,
+                    raise_on_failure=False
+                )
+                
+                if not result["validation_passed"]:
+                    validation_results.append({
+                        "type": "factuality",
+                        "passed": False,
+                        "message": agent_output[:100],
+                        "error": result.get("error")
+                    })
+                    logger.warning(f"Factuality check failed: {result.get('error')}")
+                    
+                    if strict_mode and refinement_count < max_refinements:
+                        return {
+                            "validation_results": validation_results,
+                            "validation_failed": True,
+                            "needs_refinement": True,
+                            "refinement_count": refinement_count + 1
+                        }
+            
+            # All validations passed
+            validation_results.append({
+                "type": "output",
+                "passed": True,
+                "message": agent_output[:100]
+            })
+            logger.debug("Output validation passed")
+            return {
+                "validation_results": validation_results,
+                "validation_failed": False
+            }
+                    
+        except Exception as e:
+            logger.error(f"Output validation error: {e}", exc_info=True)
+            validation_results.append({
+                "type": "output",
+                "passed": False,
+                "error": str(e)
+            })
+            
+            if strict_mode:
+                return {
+                    "validation_results": validation_results,
+                    "validation_failed": True
+                }
+            return {"validation_results": validation_results}
+    
+    return output_validation_node
+
+
 def create_guardrails_node(
     input_guard: Optional[Guard] = None,
     output_guard: Optional[Guard] = None,
     strict_mode: bool = True
 ):
     """Create a LangGraph node that validates inputs and outputs with Guardrails.
+    
+    This is a convenience function that combines input and output validation.
+    For more control, use create_input_validation_node and create_output_validation_node separately.
     
     Args:
         input_guard: Guard for validating user inputs. If None, input validation is skipped.
